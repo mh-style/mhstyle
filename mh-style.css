@@ -1478,6 +1478,9 @@ body {
 .mh-text-underline {
   text-decoration-line: underline;
 }
+.mh-text-decoration-none {
+  text-decoration: none;
+}
 
 .mh-text-line-through {
   text-decoration-line: line-through;
