@@ -1,37 +1,8 @@
-/**
-*font-size
-*font-weight
-*margin
-*padding
-*position
-*display
-*float
-*width
-*height
-*cursor
-*color
-*background
-*background-color
-*grid
-*overflow
-*text
-*text-color
-*container
-*borde
-*shadow
-*text-align
-*button
-*button outline
-*card
-*slider
-*table
-*switch
-*checkbox
-*/
-/**
-3d card
-horizontal-card
-*/
+/*!
+ * MH-Style Bata v1.0.0 (https://mhstyle.net)
+ * Copyright 2022 The MH-Style Authors
+ * Licensed under MIT (https://github.com/mh-style/mh-style/blob/v1.0/LICENSE)
+ */
 :root {
   --mh-primary-color: #008cff;
   --mh-border-color: #dee2e6;
