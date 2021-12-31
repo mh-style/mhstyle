@@ -1,7 +1,7 @@
 /*=============tab============*/
 try {
-	var tabs = document.querySelectorAll(".mh-tab-style-1 .mh-tabs ul li");
-	var tabs_wrap = document.querySelectorAll(".mh-tab-style-1 .mh-tab-content .mh-tab-wrap");
+	var tabs = document.querySelectorAll(".mh-tab-s1 .mh-tabs ul li");
+	var tabs_wrap = document.querySelectorAll(".mh-tab-s1 .mh-tab-content .mh-tab-wrap");
 	tabs.forEach(function (tab, tab_index) {
 		tab.addEventListener("click", function () {
 			tabs.forEach(function (tab) {
@@ -47,21 +47,12 @@ try {
 /*==========/Accordion===========*/
 try {
 	const mh_range_slider = document.querySelector(".mh-range-slider input");
-	const value = document.querySelector(".mh-range-style-1 .mh-range-value");
+	const value = document.querySelector(".mh-range-s1 .mh-range-value");
 	value.textContent = mh_range_slider.value;
 	mh_range_slider.oninput = (function () {
 		value.textContent = this.value;
 	});
 } catch {}
-/*===================*/
-try {
-	var mh_navbar_toggle_button = document.querySelector(".mh-navbar .mh-navbar-toggle");
-	var mh_navbar_collapse = document.querySelector(".mh-navbar .mh-navbar-collapse");
-	mh_navbar_toggle_button.onclick = function () {
-		mh_navbar_collapse.classList.toggle("mh-collapse")
-	}
-} catch {}
-/*====================*/
 /*===========image filter===============*/
 try {
 	(function ($) {
@@ -130,9 +121,9 @@ try {
  * login form
  */
 try {
-	var mh_form_login = document.querySelector(".mh-form-style-1 #mh-form-login");
-	var mh_form_register = document.querySelector(".mh-form-style-1 #mh-form-register");
-	var mh_form_btn = document.querySelector(".mh-form-style-1 #mh-form-btn");
+	var mh_form_login = document.querySelector(".mh-form-s1 #mh-form-login");
+	var mh_form_register = document.querySelector(".mh-form-s1 #mh-form-register");
+	var mh_form_btn = document.querySelector(".mh-form-s1 #mh-form-btn");
 
 	function register() {
 		mh_form_login.style.left = "-400px";
@@ -150,10 +141,10 @@ try {
  * image gallery
  */
 try {
-	var imagegallerymainImg = document.querySelectorAll('.mh-image-gallery-style-1 .mh-image-gallery-main-img');
-	var imagegallerymodalImg = document.querySelector('.mh-image-gallery-style-1 .mh-image-gallery-display-img');
-	var imagegalleryclose = document.querySelector('.mh-image-gallery-style-1 .mh-image-gallery-close-button');
-	var imagegallerydisplayId = document.querySelector('.mh-image-gallery-style-1 #mh-image-gallery-display-section');
+	let imagegallerymainImg = document.querySelectorAll('.mh-image-gallery-s1 .mh-image-gallery-main-img');
+	let imagegallerymodalImg = document.querySelector('.mh-image-gallery-s1 .mh-image-gallery-display-img');
+	let imagegalleryclose = document.querySelector('.mh-image-gallery-s1 .mh-image-gallery-close-button');
+	let imagegallerydisplayId = document.querySelector('.mh-image-gallery-s1 #mh-image-gallery-display-section');
 	for (let i = 0; i < imagegallerymainImg.length; i++) {
 		imagegallerymainImg[i].addEventListener('click', function () {
 			imagegallerydisplayId.style.display = 'block';
@@ -751,19 +742,21 @@ try {
 			});
 
 			$(".mh-hamburger").click(function () {
-				$(".mh-sidebar-style-2").addClass("active");
+				$(".mh-sidebar-s2").addClass("active");
 			});
 			$(".mh-hamburger-nav").click(function () {
-				$(".mh-navbar-style-4").toggleClass("active");
+				$(".mh-navbar-s4").toggleClass("active");
 			});
 
 			$(".mh-close, .mh-bg-shadow").click(function () {
-				$(".mh-sidebar-style-2").removeClass("active");
+				$(".mh-sidebar-s2").removeClass("active");
 			});
 		});
 	}(jQuery));
 } catch {}
 
+
+/**supermodal */
 try {
 	(function ($) {
 
@@ -938,10 +931,40 @@ try {
 
 	}(jQuery));
 } catch {}
+
+/**navbar */
 try {
-	var menuToggle = document.getElementById("mh-menu-toggle-button");
-	var nav = document.querySelector("#nav");
-	menuToggle.addEventListener("click", function () {
-		nav.classList.toggle("active");
+	const navbarMenuToggleButtons = document.querySelectorAll(".mh-navbar-toggle");
+	const navbarMenuBodyNavs = document.querySelectorAll(".mh-navbar-collapse");
+
+	for (const navbarMenuToggleButton of navbarMenuToggleButtons) {
+		for (const navbarMenuBodyNav of navbarMenuBodyNavs) {
+			navbarMenuToggleButton.addEventListener("click", (event) => {
+				const navbarMenuToggleButtonAttribute = navbarMenuToggleButton.getAttribute("mh-navtoggle");
+				const navbarMenuBodyNavAttribute = navbarMenuBodyNav.getAttribute("id");
+				if (navbarMenuToggleButtonAttribute == navbarMenuBodyNavAttribute) {
+					navbarMenuBodyNav.classList.toggle("mh-collapse");
+				}
+			});
+		}
+	}
+} catch {}
+
+/**Number Counter */
+try {
+	let counters = document.querySelectorAll('.mh-counter');
+	counters.forEach(counter => {
+		let updateCount = () => {
+			let counterTarget = +counter.getAttribute('data-mh-numcount');
+			let counterCount = +counter.innerText;
+			let counterIncrement = counterTarget / 300;
+			if (counterCount < counterTarget) {
+				counter.innerText = Math.ceil(counterCount + counterIncrement);
+				setTimeout(updateCount, 1);
+			} else {
+				counter.innerText = counterTarget;
+			}
+		};
+		updateCount();
 	});
 } catch {}
