@@ -955,7 +955,7 @@ try {
 	let counters = document.querySelectorAll('.mh-counter');
 	counters.forEach(counter => {
 		let updateCount = () => {
-			let counterTarget = +counter.getAttribute('data-mh-numcount');
+			let counterTarget = +counter.getAttribute('mh-numcount');
 			let counterCount = +counter.innerText;
 			let counterIncrement = counterTarget / 300;
 			if (counterCount < counterTarget) {
