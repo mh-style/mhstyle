@@ -15625,7 +15625,12 @@ nav.mh-navbar .mh-nav .mh-nav-item a {
 }
 
 /** clock **/
-
+.mh-analog-clock.mh-ac-light .mh-hour,.mh-analog-clock.mh-ac-light .mh-hourl{
+  color: #000;
+}
+.mh-analog-clock.mh-ac-light .hr::before, .mh-analog-clock.mh-ac-light .mn::before, .mh-analog-clock.mh-ac-light .sc::before{
+  background-color: #000;
+}
 .mh-analog-clock {
   width: 400px;
   height: 400px;
