@@ -15625,15 +15625,16 @@ nav.mh-navbar .mh-nav .mh-nav-item a {
 }
 
 /** clock **/
+
 .mh-analog-clock {
   width: 400px;
   height: 400px;
   display: flex;
   justify-content: center;
+  background-color: #091924;
   align-items: center;
   position: relative;
   background-size: cover;
-  background-color: #091924;
   border-radius: 50%;
   border: 4px solid #091921;
   box-shadow: 0 -15px 15px rgba(255, 255, 255, 0.05), inset 0 -15px 15px rgba(255, 255, 255, 0.05), 0 15px 15px rgba(0, 0, 0, 0.3), inset 0 15px 15px rgba(0, 0, 0, 0.3);
@@ -15647,6 +15648,62 @@ nav.mh-navbar .mh-nav .mh-nav-item a {
   background: #ddd;
   border-radius: 50%;
   z-index: 10;
+}
+
+.mh-analog-clock .mh-hour,
+.mh-analog-clock .mh-minute,
+.mh-analog-clock .mh-second {
+  position: absolute;
+}
+
+.mh-analog-clock .hr,
+.mh-analog-clock .mn,
+.mh-analog-clock .sc {
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.mh-analog-clock .hr {
+  width: 180px;
+  height: 180px;
+}
+
+.mh-analog-clock .mn {
+  width: 210px;
+  height: 210px;
+}
+
+.mh-analog-clock .sc {
+  width: 230px;
+  height: 230px;
+}
+
+.mh-analog-clock .hr:before {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 85px;
+  background: #00c8ff;
+  border-radius: 6px 6px 0 0;
+}
+
+.mh-analog-clock .mn:before {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 100px;
+  background: #fff;
+  border-radius: 6px 6px 0 0;
+}
+
+.mh-analog-clock .sc:before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 155px;
+  background: #fff;
+  border-radius: 6px 6px 0 0;
 }
 
 .mh-analog-clock .mh-hour {
@@ -15713,58 +15770,28 @@ nav.mh-navbar .mh-nav .mh-nav-item a {
   transform: translate(-50%, -50%)rotate(60deg);
 }
 
-.mh-analog-clock .hour,
-.mh-analog-clock .min,
-.mh-analog-clock .sec {
-  position: absolute;
+.mh-analog-clock .mh-hour5 {
+  bottom: 15%;
+  right: 30%;
+  transform: translate(100%, 60%)rotate(-30deg);
 }
 
-.mh-analog-clock .hr,
-.mh-analog-clock .mn,
-.mh-analog-clock .sc {
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
+.mh-analog-clock .mh-hour4 {
+  bottom: 25%;
+  right: 15%;
+  transform: translate(50%, -50%)rotate(-60deg);
 }
 
-.mh-analog-clock .hr {
-  width: 180px;
-  height: 180px;
+.mh-analog-clock .mh-hour1 {
+  top: 15%;
+  right: 28%;
+  transform: translate(0%, -50%)rotate(30deg);
+  font-weight: 900;
 }
 
-.mh-analog-clock .mn {
-  width: 210px;
-  height: 210px;
-}
-
-.mh-analog-clock .sc {
-  width: 230px;
-  height: 230px;
-}
-
-.mh-analog-clock .hr:before {
-  content: "";
-  position: absolute;
-  width: 8px;
-  height: 85px;
-  background: #00c8ff;
-  border-radius: 6px 6px 0 0;
-}
-
-.mh-analog-clock .mn:before {
-  content: "";
-  position: absolute;
-  width: 4px;
-  height: 100px;
-  background: #fff;
-  border-radius: 6px 6px 0 0;
-}
-
-.mh-analog-clock .sc:before {
-  content: "";
-  position: absolute;
-  width: 2px;
-  height: 155px;
-  background: #fff;
-  border-radius: 6px 6px 0 0;
+.mh-analog-clock .mh-hour2 {
+  top: 30%;
+  right: 14%;
+  transform: translate(50%, -60%)rotate(60deg);
+  font-weight: 900;
 }
