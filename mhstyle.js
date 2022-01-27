@@ -3599,13 +3599,13 @@ try {
 	let analog_clock = document.querySelector('.mh-analog-clock');
 	let analog = '<span class="mh-hour12 mh-hour">12</span>' + '<span class="mh-hour11 mh-hourl">|</span>' +
 		'<span class="mh-hour10 mh-hourl">|</span>' + '<span class="mh-hour mh-hour9">9</span>' +
-		'<span class="mh-hour8 hourl">|</span>' + '<span class="mh-hour7 mh-hourl">|</span>' +
+		'<span class="mh-hour8 mh-hourl">|</span>' + '<span class="mh-hour7 mh-hourl">|</span>' +
 		'<span class="mh-hour mh-hour6">6</span>' + '<span class="mh-hour5 mh-hourl">|</span>' +
 		'<span class="mh-hour4 mh-hourl">|</span>' + '<span class="mh-hour mh-hour3">3</span>' +
 		'<span class="mh-hour2 mh-hourl">|</span>' + '<span class="mh-hour1 mh-hourl">|</span>' + '<span class="mh-hour">' +
 		'<span class="hr" id="hr">' +
-		'</span>' + '</span>' + '<span class="min">' + '<span class="mn" id="mn">' + '</span>' + '</span>' +
-		'<span class="second">' + '<span class="sc" id="sc">' + '</span>' + '</span>';
+		'</span>' + '</span>' + '<span class="mh-minute">' + '<span class="mn" id="mn">' + '</span>' + '</span>' +
+		'<span class="mh-second">' + '<span class="sc" id="sc">' + '</span>' + '</span>';
 	analog_clock.innerHTML = analog;
 	let hr = analog_clock.querySelector('#hr');
 	let mn = analog_clock.querySelector('#mn');
