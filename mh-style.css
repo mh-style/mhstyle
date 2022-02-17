@@ -6302,7 +6302,7 @@ nav.mh-navbar .mh-nav .mh-nav-item a {
   display: inline-block;
 }
 
-.mh-image-filter-s1 .mh-image-filter-image-body .mh-image-filter img {
+.mh-image-filter-s1 .mh-image-filter-image-body .mh-image-filter {
   margin: 5px;
   width: 400px;
   height: 250px;
