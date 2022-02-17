@@ -6288,7 +6288,8 @@ nav.mh-navbar .mh-nav .mh-nav-item a {
   padding: 10px 25px;
   color: #e74c3c;
   margin-bottom: 10px !important;
-  display: inline-block
+  display: inline-block;
+  cursor: pointer;
 }
 
 .mh-image-filter-s1 .mh-image-filter-navigation .mh-image-filter-button.active {
