@@ -74,118 +74,120 @@ body {
   line-height: 0;
 }
 /*============== Font Size ================*/
+
+.mh-slider-fs-12 .mh-nav button,
 .mh-fs-12 {
   font-size: 12px !important;
 }
-
+.mh-slider-fs-13 .mh-nav button,
 .mh-fs-13 {
   font-size: 13px !important;
 }
-
+.mh-slider-fs-14 .mh-nav button,
 .mh-fs-14 {
   font-size: 14px !important;
 }
-
+.mh-slider-fs-15 .mh-nav button,
 .mh-fs-15 {
   font-size: 15px !important;
 }
-
+.mh-slider-fs-16 .mh-nav button,
 .mh-fs-16 {
   font-size: 16px !important;
 }
-
+.mh-slider-fs-17 .mh-nav button,
 .mh-fs-17 {
   font-size: 17px !important;
 }
-
+.mh-slider-fs-18 .mh-nav button,
 .mh-fs-18 {
   font-size: 18px !important;
 }
-
+.mh-slider-fs-19 .mh-nav button,
 .mh-fs-19 {
   font-size: 19px !important;
 }
-
+.mh-slider-fs-20 .mh-nav button,
 .mh-fs-20 {
   font-size: 20px !important;
 }
-
+.mh-slider-fs-21 .mh-nav button,
 .mh-fs-21 {
   font-size: 21px !important;
 }
-
+.mh-slider-fs-22 .mh-nav button,
 .mh-fs-22 {
   font-size: 22px !important;
 }
-
+.mh-slider-fs-23 .mh-nav button,
 .mh-fs-23 {
   font-size: 23px !important;
 }
-
+.mh-slider-fs-24 .mh-nav button,
 .mh-fs-24 {
   font-size: 24px !important;
 }
-
+.mh-slider-fs-25 .mh-nav button,
 .mh-fs-25 {
   font-size: 25px !important;
 }
-
+.mh-slider-fs-26 .mh-nav button,
 .mh-fs-26 {
   font-size: 26px !important;
 }
-
+.mh-slider-fs-27 .mh-nav button,
 .mh-fs-27 {
   font-size: 27px !important;
 }
-
+.mh-slider-fs-28 .mh-nav button,
 .mh-fs-28 {
   font-size: 28px !important;
 }
-
+.mh-slider-fs-29 .mh-nav button,
 .mh-fs-29 {
   font-size: 29px !important;
 }
-
+.mh-slider-fs-30 .mh-nav button,
 .mh-fs-30 {
   font-size: 30px !important;
 }
-
+.mh-slider-fs-31 .mh-nav button,
 .mh-fs-31 {
   font-size: 31px !important;
 }
-
+.mh-slider-fs-32 .mh-nav button,
 .mh-fs-32 {
   font-size: 32px !important;
 }
-
+.mh-slider-fs-33 .mh-nav button,
 .mh-fs-33 {
   font-size: 33px !important;
 }
-
+.mh-slider-fs-34 .mh-nav button,
 .mh-fs-34 {
   font-size: 34px !important;
 }
-
+.mh-slider-fs-35 .mh-nav button,
 .mh-fs-35 {
   font-size: 35px !important;
 }
-
+.mh-slider-fs-36 .mh-nav button,
 .mh-fs-36 {
   font-size: 36px !important;
 }
-
+.mh-slider-fs-37 .mh-nav button,
 .mh-fs-37 {
   font-size: 37px !important;
 }
-
+.mh-slider-fs-38 .mh-nav button,
 .mh-fs-38 {
   font-size: 38px !important;
 }
-
+.mh-slider-fs-39 .mh-nav button,
 .mh-fs-39 {
   font-size: 39px !important;
 }
-
+.mh-slider-fs-40 .mh-nav button,
 .mh-fs-40 {
   font-size: 40px !important;
 }
@@ -771,173 +773,217 @@ body {
 }
 
 /*=============padding===============*/
+.mh-slider-p-0 .mh-nav button,
 .mh-p-0 {
   padding: 0px !important;
 }
 
+.mh-slider-p-1 .mh-nav button,
 .mh-p-1 {
   padding: 5px !important;
 }
 
+.mh-slider-p-2 .mh-nav button,
 .mh-p-2 {
   padding: 10px !important;
 }
 
+.mh-slider-p-3 .mh-nav button,
 .mh-p-3 {
   padding: 15px !important;
 }
 
+.mh-slider-p-4 .mh-nav button,
 .mh-p-4 {
   padding: 20px !important;
 }
 
+.mh-slider-p-5 .mh-nav button,
 .mh-p-5 {
   padding: 25px !important;
 }
-
+.mh-slider-p-6 .mh-nav button,
 .mh-p-6 {
   padding: 30px !important;
 }
 
 /*===============padding-top=================*/
+.mh-slider-pt-0 .mh-nav button,
+.mh-slider-py-0 .mh-nav button,
 .mh-pt-0,
 .mh-py-0 {
   padding-top: 0px !important;
 }
 
+.mh-slider-pt-1 .mh-nav button,
+.mh-slider-py-1 .mh-nav button,
 .mh-pt-1,
 .mh-py-1 {
   padding-top: 5px !important;
 }
 
+.mh-slider-pt-2 .mh-nav button,
+.mh-slider-py-2 .mh-nav button,
 .mh-pt-2,
 .mh-py-2 {
   padding-top: 10px !important;
 }
 
+.mh-slider-pt-3 .mh-nav button,
+.mh-slider-py-3 .mh-nav button,
 .mh-pt-3,
 .mh-py-3 {
   padding-top: 15px !important;
 }
 
+.mh-slider-pt-4 .mh-nav button,
+.mh-slider-py-4 .mh-nav button,
 .mh-pt-4,
 .mh-py-4 {
   padding-top: 20px !important;
 }
 
+.mh-slider-pt-5 .mh-nav button,
+.mh-slider-py-5 .mh-nav button,
 .mh-pt-5,
 .mh-py-5 {
   padding-top: 25px !important;
 }
 
+.mh-slider-pt-6 .mh-nav button,
+.mh-slider-py-6 .mh-nav button,
 .mh-pt-6,
 .mh-py-6 {
   padding-top: 30px !important;
 }
 
 /*============padding-bottom===========*/
+.mh-slider-pb-0 .mh-nav button,
+.mh-slider-py-0 .mh-nav button,
 .mh-pb-0,
 .mh-py-0 {
   padding-bottom: 0px !important;
 }
-
+.mh-slider-pb-1 .mh-nav button,
+.mh-slider-py-1 .mh-nav button,
 .mh-pb-1,
 .mh-py-1 {
   padding-bottom: 5px !important;
 }
-
+.mh-slider-pb-2 .mh-nav button,
+.mh-slider-py-2 .mh-nav button,
 .mh-pb-2,
 .mh-py-2 {
   padding-bottom: 10px !important;
 }
-
+.mh-slider-pb-3 .mh-nav button,
+.mh-slider-py-3 .mh-nav button,
 .mh-pb-3,
 .mh-py-3 {
   padding-bottom: 15px !important;
 }
-
+.mh-slider-pb-4 .mh-nav button,
+.mh-slider-py-4 .mh-nav button,
 .mh-pb-4,
 .mh-py-4 {
   padding-bottom: 20px !important;
 }
-
+.mh-slider-pb-5 .mh-nav button,
+.mh-slider-py-5 .mh-nav button,
 .mh-pb-5,
 .mh-py-5 {
   padding-bottom: 25px !important;
 }
-
+.mh-slider-pb-6 .mh-nav button,
+.mh-slider-py-6 .mh-nav button,
 .mh-pb-6,
 .mh-py-6 {
   padding-bottom: 30px !important;
 }
 
 /*=============padding-left=============*/
+.mh-slider-pl-0 .mh-nav button,
+.mh-slider-px-0 .mh-nav button,
 .mh-pl-0,
 .mh-px-0 {
   padding-left: 0px !important;
 }
-
+.mh-slider-pl-1 .mh-nav button,
+.mh-slider-px-1 .mh-nav button,
 .mh-pl-1,
 .mh-px-1 {
   padding-left: 5px !important;
 }
-
+.mh-slider-pl-2 .mh-nav button,
+.mh-slider-px-2 .mh-nav button,
 .mh-pl-2,
 .mh-px-2 {
   padding-left: 10px !important;
 }
-
+.mh-slider-pl-3 .mh-nav button,
+.mh-slider-px-3 .mh-nav button,
 .mh-pl-3,
 .mh-px-3 {
   padding-left: 15px !important;
 }
-
+.mh-slider-pl-4 .mh-nav button,
+.mh-slider-px-4 .mh-nav button,
 .mh-pl-4,
 .mh-px-4 {
   padding-left: 20px !important;
 }
-
+.mh-slider-pl-5 .mh-nav button,
+.mh-slider-px-5 .mh-nav button,
 .mh-pl-5,
 .mh-px-5 {
   padding-left: 25px !important;
 }
-
+.mh-slider-pl-6 .mh-nav button,
+.mh-slider-px-6 .mh-nav button,
 .mh-pl-6,
 .mh-px-6 {
   padding-left: 30px !important;
 }
 
 /*================padding-right==============*/
+.mh-slider-pr-0 .mh-nav button,
+.mh-slider-px-0 .mh-nav button,
 .mh-pr-0,
 .mh-px-0 {
   padding-right: 0px !important;
 }
-
+.mh-slider-pr-1 .mh-nav button,
+.mh-slider-px-1 .mh-nav button,
 .mh-pr-1,
 .mh-px-1 {
   padding-right: 5px !important;
 }
-
+.mh-slider-pr-2 .mh-nav button,
+.mh-slider-px-2 .mh-nav button,
 .mh-pr-2,
 .mh-px-2 {
   padding-right: 10px !important;
 }
-
+.mh-slider-pr-3 .mh-nav button,
+.mh-slider-px-3 .mh-nav button,
 .mh-pr-3,
 .mh-px-3 {
   padding-right: 15px !important;
 }
-
+.mh-slider-pr-4 .mh-nav button,
+.mh-slider-px-4 .mh-nav button,
 .mh-pr-4,
 .mh-px-4 {
   padding-right: 20px !important;
 }
-
+.mh-slider-pr-5 .mh-nav button,
+.mh-slider-px-5 .mh-nav button,
 .mh-pr-5,
 .mh-px-5 {
   padding-right: 25px !important;
 }
-
+.mh-slider-pr-6 .mh-nav button,
+.mh-slider-px-6 .mh-nav button,
 .mh-pr-6,
 .mh-px-6 {
   padding-right: 30px !important;
@@ -1512,6 +1558,8 @@ body {
 
 /*==============text-color================*/
 
+.mh-slider-color-black .mh-nav button,
+.mh-slider-color-black-hover .mh-nav button:hover,
 .mh-table-color-black-hover tr:hover,
 .mh-table-color-black,
 .mh-table-color-th-black thead tr,
@@ -1522,6 +1570,8 @@ body {
   color: #000 !important;
 }
 
+.mh-slider-color-white .mh-nav button,
+.mh-slider-color-white-hover .mh-nav button:hover,
 .mh-table-color-white-hover tr:hover,
 .mh-table-color-white,
 .mh-table-dark,
@@ -1533,6 +1583,8 @@ body {
   color: white !important;
 }
 
+.mh-slider-color-light .mh-nav button,
+.mh-slider-color-light-hover .mh-nav button:hover,
 .mh-table-color-light-hover tr:hover,
 .mh-table-color-light,
 .mh-table-color-th-light thead tr,
@@ -1543,6 +1595,8 @@ body {
   color: #f8f9fa !important;
 }
 
+.mh-slider-color-limegreen .mh-nav button,
+.mh-slider-color-limegreen-hover .mh-nav button:hover,
 .mh-table-color-limegreen-hover tr:hover,
 .mh-table-color-limegreen,
 .mh-table-color-th-limegreen thead tr,
@@ -1553,6 +1607,8 @@ body {
   color: limegreen !important;
 }
 
+.mh-slider-color-blue .mh-nav button,
+.mh-slider-color-blue-hover .mh-nav button:hover,
 .mh-table-color-blue-hover tr:hover,
 .mh-table-color-blue,
 .mh-table-color-th-blue thead tr,
@@ -1562,7 +1618,8 @@ body {
 .mh-color-blue {
   color: blue !important;
 }
-
+.mh-slider-color-orange .mh-nav button,
+.mh-slider-color-orange-hover .mh-nav button:hover,
 .mh-table-color-orange-hover tr:hover,
 .mh-table-color-th-orange thead tr,
 .mh-table-color-orange,
@@ -1573,6 +1630,8 @@ body {
   color: orange !important;
 }
 
+.mh-slider-color-green .mh-nav button,
+.mh-slider-color-green-hover .mh-nav button:hover,
 .mh-table-color-green-hover tr:hover,
 .mh-table-color-th-green thead tr,
 .mh-table-color-green,
@@ -1583,6 +1642,8 @@ body {
   color: green !important;
 }
 
+.mh-slider-color-lightgreen .mh-nav button,
+.mh-slider-color-lightgreen-hover .mh-nav button:hover,
 .mh-table-color-lightgreen-hover tr:hover,
 .mh-table-color-th-lightgreen thead tr,
 .mh-table-color-lightgreen,
@@ -1593,6 +1654,8 @@ body {
   color: lightgreen !important;
 }
 
+.mh-slider-color-darkgreen .mh-nav button,
+.mh-slider-color-darkgreen-hover .mh-nav button:hover,
 .mh-table-color-darkgreen-hover tr:hover,
 .mh-table-color-th-darkgreen thead tr,
 .mh-table-color-darkgreen,
@@ -1603,6 +1666,8 @@ body {
   color: darkgreen !important;
 }
 
+.mh-slider-color-red .mh-nav button,
+.mh-slider-color-red-hover .mh-nav button:hover,
 .mh-table-color-red-hover tr:hover,
 .mh-table-color-th-red thead tr,
 .mh-table-color-red,
@@ -1613,6 +1678,8 @@ body {
   color: red !important;
 }
 
+.mh-slider-color-skyblue .mh-nav button,
+.mh-slider-color-skyblue-hover .mh-nav button:hover,
 .mh-table-color-skyblue-hover tr:hover,
 .mh-table-color-th-skyblue thead tr,
 .mh-table-color-skyblue,
@@ -1623,7 +1690,8 @@ body {
   color: skyblue !important;
 }
 
-
+.mh-slider-color-primary .mh-nav button,
+.mh-slider-color-primary-hover .mh-nav button:hover,
 .mh-table-color-primary-hover tr:hover,
 .mh-table-color-th-primary thead tr,
 .mh-table-color-primary,
@@ -1634,6 +1702,8 @@ body {
   color: var(--mh-primary-color) !important;
 }
 
+.mh-slider-color-maroon .mh-nav button,
+.mh-slider-color-maroon-hover .mh-nav button:hover,
 .mh-table-color-maroon-hover tr:hover,
 .mh-table-color-th-maroon thead tr,
 .mh-table-color-maroon,
@@ -1644,6 +1714,8 @@ body {
   color: maroon !important;
 }
 
+.mh-slider-color-yellow .mh-nav button,
+.mh-slider-color-yellow-hover .mh-nav button:hover,
 .mh-table-color-yellow-hover tr:hover,
 .mh-table-color-th-yellow thead tr,
 .mh-table-color-yellow,
@@ -1654,6 +1726,8 @@ body {
   color: yellow !important;
 }
 
+.mh-slider-color-lightgray .mh-nav button,
+.mh-slider-color-lightgray-hover .mh-nav button:hover,
 .mh-table-color-lightgray-hover tr:hover,
 .mh-table-color-th-lightgray thead tr,
 .mh-table-color-lightgray,
@@ -1664,6 +1738,8 @@ body {
   color: lightgray !important;
 }
 
+.mh-slider-color-gray .mh-nav button,
+.mh-slider-color-gray-hover .mh-nav button:hover,
 .mh-table-color-gray-hover tr:hover,
 .mh-table-color-th-gray thead tr,
 .mh-table-color-gray,
@@ -1674,6 +1750,8 @@ body {
   color: gray !important;
 }
 
+.mh-slider-color-gold .mh-nav button,
+.mh-slider-color-gold-hover .mh-nav button:hover,
 .mh-table-color-gold-hover tr:hover,
 .mh-table-color-th-gold thead tr,
 .mh-table-color-gold,
@@ -1684,6 +1762,8 @@ body {
   color: gold !important;
 }
 
+.mh-slider-color-aqua .mh-nav button,
+.mh-slider-color-aqua-hover .mh-nav button:hover,
 .mh-table-color-aqua-hover tr:hover,
 .mh-table-color-th-aqua thead tr,
 .mh-table-color-aqua,
@@ -1694,6 +1774,8 @@ body {
   color: aqua !important;
 }
 
+.mh-slider-color-pink .mh-nav button,
+.mh-slider-color-pink-hover .mh-nav button:hover,
 .mh-table-color-pink-hover tr:hover,
 .mh-table-color-th-pink thead tr,
 .mh-table-color-pink,
@@ -1704,6 +1786,8 @@ body {
   color: pink !important;
 }
 
+.mh-slider-color-brown .mh-nav button,
+.mh-slider-color-brown-hover .mh-nav button:hover,
 .mh-table-color-brown-hover tr:hover,
 .mh-table-color-th-brown thead tr,
 .mh-table-color-brown,
@@ -1714,6 +1798,8 @@ body {
   color: brown !important;
 }
 
+.mh-slider-color-purple .mh-nav button,
+.mh-slider-color-purple-hover .mh-nav button:hover,
 .mh-table-color-purple-hover tr:hover,
 .mh-table-color-th-purple thead tr,
 .mh-table-color-purple,
@@ -1724,6 +1810,8 @@ body {
   color: purple !important;
 }
 
+.mh-slider-color-azure .mh-nav button,
+.mh-slider-color-azure-hover .mh-nav button:hover,
 .mh-table-color-azure-hover tr:hover,
 .mh-table-color-th-azure thead tr,
 .mh-table-color-azure,
@@ -1734,6 +1822,8 @@ body {
   color: azure !important;
 }
 
+.mh-slider-color-wheat .mh-nav button,
+.mh-slider-color-wheat-hover .mh-nav button:hover,
 .mh-table-color-wheat-hover tr:hover,
 .mh-table-color-th-wheat thead tr,
 .mh-table-color-wheat,
@@ -1743,7 +1833,8 @@ body {
 .mh-color-wheat {
   color: wheat !important;
 }
-
+.mh-slider-color-goldenrod .mh-nav button,
+.mh-slider-color-goldenrod-hover .mh-nav button:hover,
 .mh-table-color-goldenrod-hover tr:hover,
 .mh-table-color-th-goldenrod thead tr,
 .mh-table-color-goldenrod,
@@ -1753,7 +1844,8 @@ body {
 .mh-color-goldenrod {
   color: goldenrod !important;
 }
-
+.mh-slider-color-salmon .mh-nav button,
+.mh-slider-color-salmon-hover .mh-nav button:hover,
 .mh-table-color-salmon-hover tr:hover,
 .mh-table-color-th-salmon thead tr,
 .mh-table-color-salmon,
@@ -1763,7 +1855,8 @@ body {
 .mh-color-salmon {
   color: salmon !important;
 }
-
+.mh-slider-color-chocolate .mh-nav button,
+.mh-slider-color-chocolate-hover .mh-nav button:hover,
 .mh-table-color-chocolate-hover tr:hover,
 .mh-table-color-th-chocolate thead tr,
 .mh-table-color-chocolate,
@@ -1773,7 +1866,8 @@ body {
 .mh-color-chocolate {
   color: chocolate !important;
 }
-
+.mh-slider-color-darkblue .mh-nav button,
+.mh-slider-color-darkblue-hover .mh-nav button:hover,
 .mh-table-color-darkblue-hover tr:hover,
 .mh-table-color-th-darkblue thead tr,
 .mh-table-color-darkblue,
@@ -1783,7 +1877,8 @@ body {
 .mh-color-darkblue {
   color: darkblue !important;
 }
-
+.mh-slider-color-springgreen .mh-nav button,
+.mh-slider-color-springgreen-hover .mh-nav button:hover,
 .mh-table-color-springgreen-hover tr:hover,
 .mh-table-color-th-springgreen thead tr,
 .mh-table-color-springgreen,
@@ -1793,7 +1888,8 @@ body {
 .mh-color-springgreen {
   color: springgreen !important;
 }
-
+.mh-slider-color-turquoise .mh-nav button,
+.mh-slider-color-turquoise-hover .mh-nav button:hover,
 .mh-table-color-turquoise-hover tr:hover,
 .mh-table-color-th-turquoise thead tr,
 .mh-table-color-turquoise,
@@ -1803,7 +1899,8 @@ body {
 .mh-color-turquoise {
   color: turquoise !important;
 }
-
+.mh-slider-color-crimson .mh-nav button,
+.mh-slider-color-crimson-hover .mh-nav button:hover,
 .mh-table-color-crimson-hover tr:hover,
 .mh-table-color-th-crimson thead tr,
 .mh-table-color-crimson,
@@ -1813,7 +1910,8 @@ body {
 .mh-color-crimson {
   color: crimson !important;
 }
-
+.mh-slider-color-silver .mh-nav button,
+.mh-slider-color-silver-hover .mh-nav button:hover,
 .mh-table-color-silver-hover tr:hover,
 .mh-table-color-th-silver thead tr,
 .mh-table-color-silver,
@@ -1823,7 +1921,8 @@ body {
 .mh-color-silver {
   color: silver !important;
 }
-
+.mh-slider-color-darkred .mh-nav button,
+.mh-slider-color-darkred-hover .mh-nav button:hover,
 .mh-table-color-darkred-hover tr:hover,
 .mh-table-color-th-darkred thead tr,
 .mh-table-color-darkred,
@@ -1833,7 +1932,8 @@ body {
 .mh-color-darkred {
   color: darkred !important;
 }
-
+.mh-slider-color-navy .mh-nav button,
+.mh-slider-color-navy-hover .mh-nav button:hover,
 .mh-table-color-navy-hover tr:hover,
 .mh-table-color-th-navy thead tr,
 .mh-table-color-navy,
@@ -1843,7 +1943,8 @@ body {
 .mh-color-navy {
   color: navy !important;
 }
-
+.mh-slider-color-orchid .mh-nav button,
+.mh-slider-color-orchid-hover .mh-nav button:hover,
 .mh-table-color-orchid-hover tr:hover,
 .mh-table-color-th-orchid thead tr,
 .mh-table-color-orchid,
@@ -1853,7 +1954,8 @@ body {
 .mh-color-orchid {
   color: orchid !important;
 }
-
+.mh-slider-color-teal .mh-nav button,
+.mh-slider-color-teal-hover .mh-nav button:hover,
 .mh-table-color-teal-hover tr:hover,
 .mh-table-color-th-teal thead tr,
 .mh-table-color-teal,
@@ -1920,6 +2022,10 @@ body {
 
 
 /*===========background-color==============*/
+.mh-slider-bg-black .mh-nav button,
+.mh-slider-bg-black-hover .mh-nav button:hover,
+.mh-slider-bg-black .mh-dots .mh-dot.active span,
+.mh-slider-bg-black .mh-dots .mh-dot:hover span,
 .mh-before-bg-black::before,
 .mh-after-bg-black::after,
 .mh-checked-bg-black:checked,
@@ -1935,6 +2041,10 @@ body {
   background-color: #000 !important;
 }
 
+.mh-slider-bg-white-hover .mh-nav button:hover,
+.mh-slider-bg-white .mh-nav button,
+.mh-slider-bg-white .mh-dots .mh-dot.active span,
+.mh-slider-bg-white .mh-dots .mh-dot:hover span,
 .mh-table-th-white thead tr,
 .mh-table-white,
 .mh-table-td-white tbody tr,
@@ -1949,6 +2059,10 @@ body {
   background-color: white !important;
 }
 
+.mh-slider-bg-light-hover .mh-nav button:hover,
+.mh-slider-bg-light .mh-nav button,
+.mh-slider-bg-light .mh-dots .mh-dot.active span,
+.mh-slider-bg-light .mh-dots .mh-dot:hover span,
 .mh-table-th-light thead tr,
 .mh-table-light,
 .mh-table-td-light tbody tr,
@@ -1964,6 +2078,10 @@ body {
   background-color: #f8f9fa !important;
 }
 
+.mh-slider-bg-blue-hover .mh-nav button:hover,
+.mh-slider-bg-blue .mh-nav button,
+.mh-slider-bg-blue .mh-dots .mh-dot.active span,
+.mh-slider-bg-blue .mh-dots .mh-dot:hover span,
 .mh-table-th-blue thead tr,
 .mh-table-blue,
 .mh-table-td-blue tbody tr,
@@ -1978,6 +2096,10 @@ body {
   background-color: blue !important;
 }
 
+.mh-slider-bg-green-hover .mh-nav button:hover,
+.mh-slider-bg-green .mh-nav button,
+.mh-slider-bg-green .mh-dots .mh-dot.active span,
+.mh-slider-bg-green .mh-dots .mh-dot:hover span,
 .mh-table-th-green thead tr,
 .mh-table-green,
 .mh-table-td-green tbody tr,
@@ -1992,6 +2114,10 @@ body {
   background-color: green !important;
 }
 
+.mh-slider-bg-lightgreen-hover .mh-nav button:hover,
+.mh-slider-bg-lightgreen .mh-nav button,
+.mh-slider-bg-lightgreen .mh-dots .mh-dot.active span,
+.mh-slider-bg-lightgreen .mh-dots .mh-dot:hover span,
 .mh-table-th-lightgreen thead tr,
 .mh-table-lightgreen,
 .mh-table-td-lightgreen tbody tr,
@@ -2006,6 +2132,10 @@ body {
   background-color: lightgreen !important;
 }
 
+.mh-slider-bg-limegreen-hover .mh-nav button:hover,
+.mh-slider-bg-limegreen .mh-nav button,
+.mh-slider-bg-limegreen .mh-dots .mh-dot.active span,
+.mh-slider-bg-limegreen .mh-dots .mh-dot:hover span,
 .mh-table-th-limegreen thead tr,
 .mh-table-limegreen,
 .mh-table-td-limegreen tbody tr,
@@ -2020,6 +2150,10 @@ body {
   background-color: limegreen !important;
 }
 
+.mh-slider-bg-orange-hover .mh-nav button:hover,
+.mh-slider-bg-orange .mh-nav button,
+.mh-slider-bg-orange .mh-dots .mh-dot.active span,
+.mh-slider-bg-orange .mh-dots .mh-dot:hover span,
 .mh-table-th-orange thead tr,
 .mh-table-orange,
 .mh-table-td-orange tbody tr,
@@ -2034,6 +2168,10 @@ body {
   background-color: orange !important;
 }
 
+.mh-slider-bg-darkgreen-hover .mh-nav button:hover,
+.mh-slider-bg-darkgreen .mh-nav button,
+.mh-slider-bg-darkgreen .mh-dots .mh-dot.active span,
+.mh-slider-bg-darkgreen .mh-dots .mh-dot:hover span,
 .mh-table-th-darkgreen thead tr,
 .mh-table-darkgreen,
 .mh-table-td-darkgreen tbody tr,
@@ -2048,6 +2186,10 @@ body {
   background-color: darkgreen !important;
 }
 
+.mh-slider-bg-red-hover .mh-nav button:hover,
+.mh-slider-bg-red .mh-nav button,
+.mh-slider-bg-red .mh-dots .mh-dot.active span,
+.mh-slider-bg-red .mh-dots .mh-dot:hover span,
 .mh-table-th-red thead tr,
 .mh-table-red,
 .mh-table-td-red tbody tr,
@@ -2062,6 +2204,10 @@ body {
   background-color: red !important;
 }
 
+.mh-slider-bg-skyblue-hover .mh-nav button:hover,
+.mh-slider-bg-skyblue .mh-nav button,
+.mh-slider-bg-skyblue .mh-dots .mh-dot.active span,
+.mh-slider-bg-skyblue .mh-dots .mh-dot:hover span,
 .mh-table-th-skyblue thead tr,
 .mh-table-skyblue,
 .mh-table-td-skyblue tbody tr,
@@ -2076,6 +2222,10 @@ body {
   background-color: skyblue !important;
 }
 
+.mh-slider-bg-primary-hover .mh-nav button:hover,
+.mh-slider-bg-primary .mh-nav button,
+.mh-slider-bg-primary .mh-dots .mh-dot.active span,
+.mh-slider-bg-primary .mh-dots .mh-dot:hover span,
 .mh-table-th-primary thead tr,
 .mh-table-primary,
 .mh-table-td-primary tbody tr,
@@ -2089,7 +2239,10 @@ body {
 .mh-bg-primary {
   background-color: var(--mh-primary-color) !important;
 }
-
+.mh-slider-bg-maroon-hover .mh-nav button:hover,
+.mh-slider-bg-maroon .mh-nav button,
+.mh-slider-bg-maroon .mh-dots .mh-dot.active span,
+.mh-slider-bg-maroon .mh-dots .mh-dot:hover span,
 .mh-table-th-maroon thead tr,
 .mh-table-maroon,
 .mh-table-td-maroon tbody tr,
@@ -2104,6 +2257,10 @@ body {
   background-color: maroon !important;
 }
 
+.mh-slider-bg-yellow-hover .mh-nav button:hover,
+.mh-slider-bg-yellow .mh-nav button,
+.mh-slider-bg-yellow .mh-dots .mh-dot.active span,
+.mh-slider-bg-yellow .mh-dots .mh-dot:hover span,
 .mh-table-th-yellow thead tr,
 .mh-table-yellow,
 .mh-table-td-yellow tbody tr,
@@ -2118,6 +2275,10 @@ body {
   background-color: yellow !important;
 }
 
+.mh-slider-bg-lightgray-hover .mh-nav button:hover,
+.mh-slider-bg-lightgray .mh-nav button,
+.mh-slider-bg-lightgray .mh-dots .mh-dot.active span,
+.mh-slider-bg-lightgray .mh-dots .mh-dot:hover span,
 .mh-table-th-lightgray thead tr,
 .mh-table-lightgray,
 .mh-table-td-lightgray tbody tr,
@@ -2131,7 +2292,10 @@ body {
 .mh-bg-lightgray {
   background-color: lightgray !important;
 }
-
+.mh-slider-bg-gray-hover .mh-nav button:hover,
+.mh-slider-bg-gray .mh-nav button,
+.mh-slider-bg-gray .mh-dots .mh-dot.active span,
+.mh-slider-bg-gray .mh-dots .mh-dot:hover span,
 .mh-table-th-gray thead tr,
 .mh-table-gray,
 .mh-table-td-gray tbody tr,
@@ -2146,6 +2310,10 @@ body {
   background-color: gray !important;
 }
 
+.mh-slider-bg-gold-hover .mh-nav button:hover,
+.mh-slider-bg-gold .mh-nav button,
+.mh-slider-bg-gold .mh-dots .mh-dot.active span,
+.mh-slider-bg-gold .mh-dots .mh-dot:hover span,
 .mh-table-th-gold thead tr,
 .mh-table-gold,
 .mh-table-td-gold tbody tr,
@@ -2160,6 +2328,10 @@ body {
   background-color: gold !important;
 }
 
+.mh-slider-bg-aqua-hover .mh-nav button:hover,
+.mh-slider-bg-aqua .mh-nav button,
+.mh-slider-bg-aqua .mh-dots .mh-dot.active span,
+.mh-slider-bg-aqua .mh-dots .mh-dot:hover span,
 .mh-table-th-aqua thead tr,
 .mh-table-aqua,
 .mh-table-td-aqua tbody tr,
@@ -2174,6 +2346,10 @@ body {
   background-color: aqua !important;
 }
 
+.mh-slider-bg-pink-hover .mh-nav button:hover,
+.mh-slider-bg-pink .mh-nav button,
+.mh-slider-bg-pink .mh-dots .mh-dot.active span,
+.mh-slider-bg-pink .mh-dots .mh-dot:hover span,
 .mh-table-th-pink thead tr,
 .mh-table-pink,
 .mh-table-td-pink tbody tr,
@@ -2188,6 +2364,10 @@ body {
   background-color: pink !important;
 }
 
+.mh-slider-bg-brown-hover .mh-nav button:hover,
+.mh-slider-bg-brown .mh-nav button,
+.mh-slider-bg-brown .mh-dots .mh-dot.active span,
+.mh-slider-bg-brown .mh-dots .mh-dot:hover span,
 .mh-table-th-brown thead tr,
 .mh-table-brown,
 .mh-table-td-brown tbody tr,
@@ -2202,6 +2382,10 @@ body {
   background-color: brown !important;
 }
 
+.mh-slider-bg-purple-hover .mh-nav button:hover,
+.mh-slider-bg-purple .mh-nav button,
+.mh-slider-bg-purple .mh-dots .mh-dot.active span,
+.mh-slider-bg-purple .mh-dots .mh-dot:hover span,
 .mh-table-th-purple thead tr,
 .mh-table-purple,
 .mh-table-td-purple tbody tr,
@@ -2216,6 +2400,10 @@ body {
   background-color: purple !important;
 }
 
+.mh-slider-bg-azure-hover .mh-nav button:hover,
+.mh-slider-bg-azure .mh-nav button,
+.mh-slider-bg-azure .mh-dots .mh-dot.active span,
+.mh-slider-bg-azure .mh-dots .mh-dot:hover span,
 .mh-table-th-azure thead tr,
 .mh-table-azure,
 .mh-table-td-azure tbody tr,
@@ -2229,7 +2417,10 @@ body {
 .mh-bg-azure {
   background-color: azure !important;
 }
-
+.mh-slider-bg-wheat-hover .mh-nav button:hover,
+.mh-slider-bg-wheat .mh-nav button,
+.mh-slider-bg-wheat .mh-dots .mh-dot.active span,
+.mh-slider-bg-wheat .mh-dots .mh-dot:hover span,
 .mh-table-th-wheat thead tr,
 .mh-table-wheat,
 .mh-table-td-wheat tbody tr,
@@ -2244,6 +2435,10 @@ body {
   background-color: wheat !important;
 }
 
+.mh-slider-bg-goldenrod-hover .mh-nav button:hover,
+.mh-slider-bg-goldenrod .mh-nav button,
+.mh-slider-bg-goldenrod .mh-dots .mh-dot.active span,
+.mh-slider-bg-goldenrod .mh-dots .mh-dot:hover span,
 .mh-table-th-goldenrod thead tr,
 .mh-table-goldenrod,
 .mh-table-td-goldenrod tbody tr,
@@ -2258,6 +2453,10 @@ body {
   background-color: goldenrod !important;
 }
 
+.mh-slider-bg-salmon-hover .mh-nav button:hover,
+.mh-slider-bg-salmon .mh-nav button,
+.mh-slider-bg-salmon .mh-dots .mh-dot.active span,
+.mh-slider-bg-salmon .mh-dots .mh-dot:hover span,
 .mh-table-th-salmon thead tr,
 .mh-table-salmon,
 .mh-table-td-salmon tbody tr,
@@ -2272,6 +2471,10 @@ body {
   background-color: salmon !important;
 }
 
+.mh-slider-bg-chocolate-hover .mh-nav button:hover,
+.mh-slider-bg-chocolate .mh-nav button,
+.mh-slider-bg-chocolate .mh-dots .mh-dot.active span,
+.mh-slider-bg-chocolate .mh-dots .mh-dot:hover span,
 .mh-table-th-chocolate thead tr,
 .mh-table-chocolate,
 .mh-table-td-chocolate tbody tr,
@@ -2285,7 +2488,10 @@ body {
 .mh-bg-chocolate {
   background-color: chocolate !important;
 }
-
+.mh-slider-bg-darkblue-hover .mh-nav button:hover,
+.mh-slider-bg-darkblue .mh-nav button,
+.mh-slider-bg-darkblue .mh-dots .mh-dot.active span,
+.mh-slider-bg-darkblue .mh-dots .mh-dot:hover span,
 .mh-table-th-darkblue thead tr,
 .mh-table-darkblue,
 .mh-table-td-darkblue tbody tr,
@@ -2300,6 +2506,10 @@ body {
   background-color: darkblue !important;
 }
 
+.mh-slider-bg-springgreen-hover .mh-nav button:hover,
+.mh-slider-bg-springgreen .mh-nav button,
+.mh-slider-bg-springgreen .mh-dots .mh-dot.active span,
+.mh-slider-bg-springgreen .mh-dots .mh-dot:hover span,
 .mh-table-th-springgreen thead tr,
 .mh-table-springgreen,
 .mh-table-td-springgreen tbody tr,
@@ -2314,6 +2524,10 @@ body {
   background-color: springgreen !important;
 }
 
+.mh-slider-bg-turquoise-hover .mh-nav button:hover,
+.mh-slider-bg-turquoise .mh-nav button,
+.mh-slider-bg-turquoise .mh-dots .mh-dot.active span,
+.mh-slider-bg-turquoise .mh-dots .mh-dot:hover span,
 .mh-table-th-turquoise thead tr,
 .mh-table-turquoise,
 .mh-table-td-turquoise tbody tr,
@@ -2328,6 +2542,10 @@ body {
   background-color: turquoise !important;
 }
 
+.mh-slider-bg-crimson-hover .mh-nav button:hover,
+.mh-slider-bg-crimson .mh-nav button,
+.mh-slider-bg-crimson .mh-dots .mh-dot.active span,
+.mh-slider-bg-crimson .mh-dots .mh-dot:hover span,
 .mh-table-th-crimson thead tr,
 .mh-table-crimson,
 .mh-table-td-crimson tbody tr,
@@ -2342,6 +2560,10 @@ body {
   background-color: crimson !important;
 }
 
+.mh-slider-bg-silver-hover .mh-nav button:hover,
+.mh-slider-bg-silver .mh-nav button,
+.mh-slider-bg-silver .mh-dots .mh-dot.active span,
+.mh-slider-bg-silver .mh-dots .mh-dot:hover span,
 .mh-table-th-silver thead tr,
 .mh-table-silver,
 .mh-table-td-silver tbody tr,
@@ -2356,6 +2578,10 @@ body {
   background-color: silver !important;
 }
 
+.mh-slider-bg-darkred-hover .mh-nav button:hover,
+.mh-slider-bg-darkred .mh-nav button,
+.mh-slider-bg-darkred .mh-dots .mh-dot.active span,
+.mh-slider-bg-darkred .mh-dots .mh-dot:hover span,
 .mh-table-th-darkred thead tr,
 .mh-table-darkred,
 .mh-table-td-darkred tbody tr,
@@ -2370,6 +2596,10 @@ body {
   background-color: darkred !important;
 }
 
+.mh-slider-bg-navy-hover .mh-nav button:hover,
+.mh-slider-bg-navy .mh-nav button,
+.mh-slider-bg-navy .mh-dots .mh-dot.active span,
+.mh-slider-bg-navy .mh-dots .mh-dot:hover span,
 .mh-table-th-navy thead tr,
 .mh-table-navy,
 .mh-table-td-navy tbody tr,
@@ -2384,6 +2614,10 @@ body {
   background-color: navy !important;
 }
 
+.mh-slider-bg-orchid-hover .mh-nav button:hover,
+.mh-slider-bg-orchid .mh-nav button,
+.mh-slider-bg-orchid .mh-dots .mh-dot.active span,
+.mh-slider-bg-orchid .mh-dots .mh-dot:hover span,
 .mh-table-th-orchid thead tr,
 .mh-table-orchid,
 .mh-table-td-orchid tbody tr,
@@ -2398,6 +2632,10 @@ body {
   background-color: orchid !important;
 }
 
+.mh-slider-bg-teal-hover .mh-nav button:hover,
+.mh-slider-bg-teal .mh-nav button,
+.mh-slider-bg-teal .mh-dots .mh-dot.active span,
+.mh-slider-bg-teal .mh-dots .mh-dot:hover span,
 .mh-table-th-teal thead tr,
 .mh-table-teal,
 .mh-table-td-teal tbody tr,
@@ -2412,6 +2650,10 @@ body {
   background-color: teal !important;
 }
 
+.mh-slider-bg-blank-hover .mh-nav button:hover,
+.mh-slider-bg-blank .mh-nav button,
+.mh-slider-bg-blank .mh-dots .mh-dot.active span,
+.mh-slider-bg-blank .mh-dots .mh-dot:hover span,
 .mh-table-th-blank thead tr,
 .mh-table-blank,
 .mh-table-td-blank tbody tr,
@@ -2426,6 +2668,8 @@ body {
   background: transparent !important;
 }
 
+.mh-slider-bg-none .mh-nav button,
+.mh-slider-bg-none-hover .mh-nav button:hover,
 .mh-bg-none {
   background: none;
 }
@@ -2441,6 +2685,7 @@ body {
 
 /*================border==================*/
 
+.mh-slider-br-rounded .mh-nav button,
 .mh-border-radius-rounded {
   border-radius: 50% !important;
 }
@@ -15178,7 +15423,7 @@ nav.mh-navbar .mh-nav .mh-nav-item a {
   .mh-px-5-xl {
     padding-right: 25px !important;
   }
-
+  
   .mh-pr-6-xl,
   .mh-px-6-xl {
     padding-right: 30px !important;
@@ -15410,8 +15655,8 @@ nav.mh-navbar .mh-nav .mh-nav-item a {
   background: 0 0;
   color: inherit;
   border: none;
-  padding: 0 !important;
-  font-size: 30px !important;
+  padding: 0;
+  font-size: 30px;
   font: inherit
 }
 
@@ -15551,7 +15796,6 @@ nav.mh-navbar .mh-nav .mh-nav-item a {
 }
 
 .mh-theme .mh-nav {
-  margin-top: 10px;
   text-align: center;
   -webkit-tap-highlight-color: transparent
 }
