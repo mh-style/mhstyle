@@ -1104,7 +1104,7 @@ try {
 				itemClass: 'mh-item',
 				stageClass: 'mh-stage',
 				stageOuterClass: 'mh-stage-outer',
-				grabClass: 'mh-grab'
+				grabClass: 'mh-grab',
 			};
 
 			mh.Width = {
@@ -1315,7 +1315,7 @@ try {
 
 				this.$element.append(this.$stage.parent());
 			};
-
+			
 			mh.prototype.initializeItems = function () {
 				var $items = this.$element.find('.mh-item');
 
@@ -1725,7 +1725,7 @@ try {
 					});
 				}
 			};
-
+			
 			mh.prototype.is = function (state) {
 				return this._states.current[state] && this._states.current[state] > 0;
 			};
@@ -1810,7 +1810,7 @@ try {
 				position -= this._clones.length / 2;
 				return this.normalize(position, true);
 			};
-
+			
 			mh.prototype.maximum = function (relative) {
 				var settings = this.settings,
 					maximum = this._coordinates.length,
@@ -2004,7 +2004,7 @@ try {
 				}
 				return width;
 			};
-
+			
 			mh.prototype.replace = function (content) {
 				this.$stage.empty();
 				this._items = [];
@@ -2030,7 +2030,7 @@ try {
 
 				this.invalidate('items');
 			};
-
+			
 			mh.prototype.add = function (content, position) {
 				var current = this.relative(this._current);
 
@@ -3194,10 +3194,10 @@ try {
 			};
 
 			Navigation.Defaults = {
-				nav: false,
+				nav: true,
 				navText: [
-					'<span aria-label="' + 'Previous' + '">&#8249;</span>',
-					'<span aria-label="' + 'Next' + '">&#8250;</span>'
+					'<span aria-label="' + 'Previous' + '">&#10094;</span>',
+					'<span aria-label="' + 'Next' + '">&#10095;</span>'
 				],
 				navSpeed: false,
 				navElement: 'button type="button" role="presentation"',
@@ -3623,3 +3623,6 @@ try {
 		sc.style.transform = `rotateZ(${ss}deg)`;
 	});
 } catch {}
+/**
+ * Slider
+ */
