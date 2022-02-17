@@ -6280,7 +6280,7 @@ nav.mh-navbar .mh-nav .mh-nav-item a {
   padding: 25px 0px;
 }
 
-.mh-image-filter-s1 .mh-image-filter-navigation a {
+.mh-image-filter-s1 .mh-image-filter-navigation .mh-image-filter-button {
   margin-right: 5px;
   text-decoration: none;
   border: 1px solid #ccc;
@@ -6291,24 +6291,24 @@ nav.mh-navbar .mh-nav .mh-nav-item a {
   display: inline-block
 }
 
-.mh-image-filter-s1 .mh-image-filter-navigation a.active {
+.mh-image-filter-s1 .mh-image-filter-navigation .mh-image-filter-button.active {
   background-color: #e74c3c;
   border-color: #e74c3c;
   color: #fff;
 }
 
-.mh-image-filter-s1 .mh-image-filter-image-body div {
+.mh-image-filter-s1 .mh-image-filter-image-body .mh-image-filter {
   display: inline-block;
 }
 
-.mh-image-filter-s1 .mh-image-filter-image-body div img {
+.mh-image-filter-s1 .mh-image-filter-image-body .mh-image-filter img {
   margin: 5px;
   width: 400px;
   height: 250px;
 }
 
 @media(max-width: 540px) {
-  .mh-image-filter-s1 .mh-image-filter-navigation a {
+  .mh-image-filter-s1 .mh-image-filter-navigation .mh-image-filter-button {
     padding: 5px 10px !important;
     font-size: 14px;
   }
