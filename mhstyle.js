@@ -931,7 +931,6 @@ try {
 
 	}(jQuery));
 } catch {}
-
 /**navbar */
 try {
 	const navbarMenuToggleButtons = document.querySelectorAll(".mh-navbar-toggle");
@@ -949,6 +948,16 @@ try {
 		}
 	}
 } catch {}
+/*** theme btn */
+try{
+	const themeBtn = document.querySelector('.mh-theme-btn');
+	themeBtn.addEventListener('click', () => {
+		document.body.classList.toggle('mh-dark-theme');
+		themeBtn.querySelector('i:first-child').classList.toggle('active');
+		themeBtn.querySelector('i:last-child').classList.toggle('active');
+
+	});
+}catch{}
 /*** background image Url */
 try {
 	let bg_img_url = document.querySelectorAll('.mh-bg-img-url');
