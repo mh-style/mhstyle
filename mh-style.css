@@ -4567,6 +4567,46 @@ body {
   background-color: #32CD32;
 }
 
+.mh-btn-success,
+.mh-btn-success-outline:hover {
+  background-color: var(--mh-success-color);
+  color: var(--mh-black-color);
+}
+
+.mh-btn-success:hover {
+  background-color: var(--mh-success-color-light);
+  color: var(--mh-white-color);
+}
+.mh-btn-warning,
+.mh-btn-warning-outline:hover {
+  background-color: var(--mh-warning-color);
+  color: var(--mh-black-color);
+}
+
+.mh-btn-warning:hover {
+  background-color: var(--mh-warning-color-light);
+  color: var(--mh-white-color);
+}
+.mh-btn-info,
+.mh-btn-info-outline:hover {
+  background-color: var(--mh-info-color);
+  color: var(--mh-black-color);
+}
+
+.mh-btn-info:hover {
+  background-color: var(--mh-info-color-light);
+  color: var(--mh-white-color);
+}
+.mh-btn-danger,
+.mh-btn-danger-outline:hover {
+  background-color: var(--mh-danger-color);
+  color: var(--mh-black-color);
+}
+
+.mh-btn-danger:hover {
+  background-color: var(--mh-danger-color-light);
+  color: var(--mh-white-color);
+}
 .mh-btn-yellow,
 .mh-btn-yellow-outline:hover {
   background-color: yellow;
@@ -4607,6 +4647,22 @@ body {
 .mh-btn-light-outline {
   background: transparent;
   border: 2px solid var(--mh-white-color);
+}
+.mh-btn-danger-outline {
+  background: transparent;
+  border: 2px solid var(--mh-danger-color);
+}
+.mh-btn-success-outline {
+  background: transparent;
+  border: 2px solid var(--mh-success-color);
+}
+.mh-btn-info-outline {
+  background: transparent;
+  border: 2px solid var(--mh-info-color);
+}
+.mh-btn-warning-outline {
+  background: transparent;
+  border: 2px solid var(--mh-warning-color);
 }
 
 .mh-btn-green-outline {
@@ -6764,7 +6820,23 @@ color: #ddd;
 .mh-form-s1 #mh-form-register {
   left: 450px;
 }
-
+.mh-form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--mh-dark-color);
+  background-color: var(--mh-white-color);
+  background-clip: padding-box;
+  border: var(--mh-border);
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
 /*===============copyboard==============*/
 .mh-copyboard-body {
   width: 90%;
