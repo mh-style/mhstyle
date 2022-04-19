@@ -979,6 +979,19 @@ try {
 	}
 	
 } catch {}
+/** Dropdown */
+try {
+	let dropdownmenubtns = document.querySelectorAll(".mh-dropdown");
+	let dropdownmenus = document.querySelectorAll(".mh-dropdown-menu");
+	for (const dropdownmenubtn of dropdownmenubtns) {
+		for (let dropdownmenu of dropdownmenus) {
+			dropdownmenubtn.addEventListener('click',(event)=>{
+				dropdownmenu.classList.toggle("mh-dropdown-menu-show");
+			});
+		}
+		
+	}
+} catch{}
 /*** theme btn */
 try{
 	const themeBtn = document.querySelector('.mh-theme-btn');
