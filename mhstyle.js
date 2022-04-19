@@ -983,11 +983,15 @@ try {
 try {
 	let dropdownmenubtns = document.querySelectorAll(".mh-dropdown");
 	let dropdownmenus = document.querySelectorAll(".mh-dropdown-menu");
-	for (const dropdownmenubtn of dropdownmenubtns) {
+	for (let dropdownmenubtn of dropdownmenubtns) {
+			let dropdownmenubtnsAttr = dropdownmenubtn.getAttribute("mh-dropdown");
 		for (let dropdownmenu of dropdownmenus) {
-			dropdownmenubtn.addEventListener('click',(event)=>{
+			let dropdownmenusAttr = dropdownmenu.getAttribute("id")
+			if (dropdownmenubtnsAttr == dropdownmenusAttr) {
+				dropdownmenubtn.addEventListener('click',(event)=>{;
 				dropdownmenu.classList.toggle("mh-dropdown-menu-show");
-			});
+			
+		});	}else{}
 		}
 		
 	}
