@@ -933,20 +933,51 @@ try {
 } catch {}
 /**navbar */
 try {
-	const navbarMenuToggleButtons = document.querySelectorAll(".mh-navbar-toggle");
-	const navbarMenuBodyNavs = document.querySelectorAll(".mh-navbar-collapse");
+	let navbarMenuToggleButtons = document.querySelectorAll(".mh-navbar-toggle");
+	let navbarMenuBodyNavs = document.querySelectorAll(".mh-navbar-collapse");
+	// let sidebarnavbarBodyNavs = document.querySelectorAll(".mh-navbar-collapse.mh-sidebar");
+	// let sidebarnavMenuToggleButtons = document.querySelectorAll(".mh-sidebar-nav-btn");
+	// let sidebarnavMenuBodyNavsClosebtn = document.querySelectorAll(".close-btn");
+	// if (sidebarnavMenuToggleButtons) {
+	// 	for (let sidebarnavMenuToggleButton of sidebarnavMenuToggleButtons) {
+	// 		for (let sidebarnavbarBodyNav of sidebarnavbarBodyNavs) {
+	// 			sidebarnavMenuToggleButton.addEventListener("click", (event) => {
+	// 				let sidebarnavMenuToggleButtonAttribute = sidebarnavMenuToggleButton.getAttribute(
+	// 					"mh-navtoggle");
+	// 				let sidebarnavMenuBodyNavAttribute = sidebarnavbarBodyNav.getAttribute("id");
+	// 				if (sidebarnavMenuToggleButtonAttribute == sidebarnavMenuBodyNavAttribute) {
+	// 				if (sidebarnavMenuBodyNavsClosebtn) {
+						
+	// 						sidebarnavbarBodyNav.classList.remove("mh-collapse");
+	// 						for (let sidebarnavMenuBodyNavsClose of sidebarnavMenuBodyNavsClosebtn) {
+	// 							sidebarnavMenuBodyNavsClose.addEventListener("click", (event) => {
+	// 								sidebarnavbarBodyNav.classList.add("mh-collapse");
+	// 							});
+	// 						}
+	// 					}
+						
+	// 				}
+	// 			});
+	// 		}
+	// 	}
+	// }
 
-	for (const navbarMenuToggleButton of navbarMenuToggleButtons) {
-		for (const navbarMenuBodyNav of navbarMenuBodyNavs) {
+	for (let navbarMenuToggleButton of navbarMenuToggleButtons) {
+		for (let navbarMenuBodyNav of navbarMenuBodyNavs) {
+				
+			
 			navbarMenuToggleButton.addEventListener("click", (event) => {
-				const navbarMenuToggleButtonAttribute = navbarMenuToggleButton.getAttribute("mh-navtoggle");
-				const navbarMenuBodyNavAttribute = navbarMenuBodyNav.getAttribute("id");
+				let navbarMenuToggleButtonAttribute = navbarMenuToggleButton.getAttribute("mh-navtoggle");
+				let navbarMenuBodyNavAttribute = navbarMenuBodyNav.getAttribute("id");
 				if (navbarMenuToggleButtonAttribute == navbarMenuBodyNavAttribute) {
-					navbarMenuBodyNav.classList.toggle("mh-collapse");
-				}
+					
+							navbarMenuBodyNav.classList.toggle("mh-collapse");
+						
+					}
 			});
 		}
 	}
+	
 } catch {}
 /*** theme btn */
 try{

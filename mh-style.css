@@ -41,13 +41,13 @@ horizontal-card
   --mh-black-color: #000;
   --mh-primary-color: #008cff;
   --mh-success-color: #22ca4b;
-  --mh-danger-color: rgb(255,67, 54);
+  --mh-danger-color: rgb(255, 67, 54);
   --mh-warning-color: rgb(234, 181, 7);
 
   --mh-primary-color-light: rgba(0, 140, 255, 0.2);
   --mh-success-color-light: rgba(34, 202, 75, 0.2);
-  --mh-danger-color-light: rgba(255, 67,54,0.2);
-  --mh-purple-color-light: rgba(160,99,245,0.2);
+  --mh-danger-color-light: rgba(255, 67, 54, 0.2);
+  --mh-purple-color-light: rgba(160, 99, 245, 0.2);
   --mh-warning-color-light: rgb(234, 181, 7, 0.2);
 
   --mh-border-color: #dee2e6;
@@ -56,7 +56,8 @@ horizontal-card
   --mh-animate-delay: 1s;
   --mh-animate-repeat: 1;
 }
-.mh-dark-theme{
+
+.mh-dark-theme {
   --mh-white-color: #131316;
   --mh-light-color: #23232a;
   --mh-dark-color: #ddd;
@@ -88,6 +89,7 @@ body {
   clear: both;
   content: "";
 }
+
 .mh-thumbnail {
   display: inline-block;
   max-width: 100%;
@@ -96,120 +98,149 @@ body {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
   line-height: 0;
 }
+
 /*============== Font Size ================*/
 
 .mh-slider-fs-12 .mh-nav button,
 .mh-fs-12 {
   font-size: 12px !important;
 }
+
 .mh-slider-fs-13 .mh-nav button,
 .mh-fs-13 {
   font-size: 13px !important;
 }
+
 .mh-slider-fs-14 .mh-nav button,
 .mh-fs-14 {
   font-size: 14px !important;
 }
+
 .mh-slider-fs-15 .mh-nav button,
 .mh-fs-15 {
   font-size: 15px !important;
 }
+
 .mh-slider-fs-16 .mh-nav button,
 .mh-fs-16 {
   font-size: 16px !important;
 }
+
 .mh-slider-fs-17 .mh-nav button,
 .mh-fs-17 {
   font-size: 17px !important;
 }
+
 .mh-slider-fs-18 .mh-nav button,
 .mh-fs-18 {
   font-size: 18px !important;
 }
+
 .mh-slider-fs-19 .mh-nav button,
 .mh-fs-19 {
   font-size: 19px !important;
 }
+
 .mh-slider-fs-20 .mh-nav button,
 .mh-fs-20 {
   font-size: 20px !important;
 }
+
 .mh-slider-fs-21 .mh-nav button,
 .mh-fs-21 {
   font-size: 21px !important;
 }
+
 .mh-slider-fs-22 .mh-nav button,
 .mh-fs-22 {
   font-size: 22px !important;
 }
+
 .mh-slider-fs-23 .mh-nav button,
 .mh-fs-23 {
   font-size: 23px !important;
 }
+
 .mh-slider-fs-24 .mh-nav button,
 .mh-fs-24 {
   font-size: 24px !important;
 }
+
 .mh-slider-fs-25 .mh-nav button,
 .mh-fs-25 {
   font-size: 25px !important;
 }
+
 .mh-slider-fs-26 .mh-nav button,
 .mh-fs-26 {
   font-size: 26px !important;
 }
+
 .mh-slider-fs-27 .mh-nav button,
 .mh-fs-27 {
   font-size: 27px !important;
 }
+
 .mh-slider-fs-28 .mh-nav button,
 .mh-fs-28 {
   font-size: 28px !important;
 }
+
 .mh-slider-fs-29 .mh-nav button,
 .mh-fs-29 {
   font-size: 29px !important;
 }
+
 .mh-slider-fs-30 .mh-nav button,
 .mh-fs-30 {
   font-size: 30px !important;
 }
+
 .mh-slider-fs-31 .mh-nav button,
 .mh-fs-31 {
   font-size: 31px !important;
 }
+
 .mh-slider-fs-32 .mh-nav button,
 .mh-fs-32 {
   font-size: 32px !important;
 }
+
 .mh-slider-fs-33 .mh-nav button,
 .mh-fs-33 {
   font-size: 33px !important;
 }
+
 .mh-slider-fs-34 .mh-nav button,
 .mh-fs-34 {
   font-size: 34px !important;
 }
+
 .mh-slider-fs-35 .mh-nav button,
 .mh-fs-35 {
   font-size: 35px !important;
 }
+
 .mh-slider-fs-36 .mh-nav button,
 .mh-fs-36 {
   font-size: 36px !important;
 }
+
 .mh-slider-fs-37 .mh-nav button,
 .mh-fs-37 {
   font-size: 37px !important;
 }
+
 .mh-slider-fs-38 .mh-nav button,
 .mh-fs-38 {
   font-size: 38px !important;
 }
+
 .mh-slider-fs-39 .mh-nav button,
 .mh-fs-39 {
   font-size: 39px !important;
 }
+
 .mh-slider-fs-40 .mh-nav button,
 .mh-fs-40 {
   font-size: 40px !important;
@@ -418,6 +449,7 @@ body {
 .mh-p-fi-top {
   position: fixed !important;
   top: 0;
+  z-index: 10;
 }
 
 .mh-p-fi-bottom {
@@ -425,7 +457,49 @@ body {
   bottom: 0;
 }
 
+/*******z-index******/
+.mh-z-index-1 {
+  z-index: 10;
+}
+
+.mh-z-index-2 {
+  z-index: 20;
+}
+
+.mh-z-index-3 {
+  z-index: 30;
+}
+
+.mh-z-index-4 {
+  z-index: 40;
+}
+
+.mh-z-index-5 {
+  z-index: 50;
+}
+
+.mh-z-index-n1 {
+  z-index: -10;
+}
+
+.mh-z-index-n2 {
+  z-index: -20;
+}
+
+.mh-z-index-n3 {
+  z-index: -30;
+}
+
+.mh-z-index-n4 {
+  z-index: -40;
+}
+
+.mh-z-index-n5 {
+  z-index: -50;
+}
+
 /*==========Line height===========*/
+
 .mh-line-height-10 {
   line-height: 10px;
 }
@@ -825,6 +899,7 @@ body {
 .mh-p-5 {
   padding: 25px !important;
 }
+
 .mh-slider-p-6 .mh-nav button,
 .mh-p-6 {
   padding: 30px !important;
@@ -887,36 +962,42 @@ body {
 .mh-py-0 {
   padding-bottom: 0px !important;
 }
+
 .mh-slider-pb-1 .mh-nav button,
 .mh-slider-py-1 .mh-nav button,
 .mh-pb-1,
 .mh-py-1 {
   padding-bottom: 5px !important;
 }
+
 .mh-slider-pb-2 .mh-nav button,
 .mh-slider-py-2 .mh-nav button,
 .mh-pb-2,
 .mh-py-2 {
   padding-bottom: 10px !important;
 }
+
 .mh-slider-pb-3 .mh-nav button,
 .mh-slider-py-3 .mh-nav button,
 .mh-pb-3,
 .mh-py-3 {
   padding-bottom: 15px !important;
 }
+
 .mh-slider-pb-4 .mh-nav button,
 .mh-slider-py-4 .mh-nav button,
 .mh-pb-4,
 .mh-py-4 {
   padding-bottom: 20px !important;
 }
+
 .mh-slider-pb-5 .mh-nav button,
 .mh-slider-py-5 .mh-nav button,
 .mh-pb-5,
 .mh-py-5 {
   padding-bottom: 25px !important;
 }
+
 .mh-slider-pb-6 .mh-nav button,
 .mh-slider-py-6 .mh-nav button,
 .mh-pb-6,
@@ -931,36 +1012,42 @@ body {
 .mh-px-0 {
   padding-left: 0px !important;
 }
+
 .mh-slider-pl-1 .mh-nav button,
 .mh-slider-px-1 .mh-nav button,
 .mh-pl-1,
 .mh-px-1 {
   padding-left: 5px !important;
 }
+
 .mh-slider-pl-2 .mh-nav button,
 .mh-slider-px-2 .mh-nav button,
 .mh-pl-2,
 .mh-px-2 {
   padding-left: 10px !important;
 }
+
 .mh-slider-pl-3 .mh-nav button,
 .mh-slider-px-3 .mh-nav button,
 .mh-pl-3,
 .mh-px-3 {
   padding-left: 15px !important;
 }
+
 .mh-slider-pl-4 .mh-nav button,
 .mh-slider-px-4 .mh-nav button,
 .mh-pl-4,
 .mh-px-4 {
   padding-left: 20px !important;
 }
+
 .mh-slider-pl-5 .mh-nav button,
 .mh-slider-px-5 .mh-nav button,
 .mh-pl-5,
 .mh-px-5 {
   padding-left: 25px !important;
 }
+
 .mh-slider-pl-6 .mh-nav button,
 .mh-slider-px-6 .mh-nav button,
 .mh-pl-6,
@@ -975,36 +1062,42 @@ body {
 .mh-px-0 {
   padding-right: 0px !important;
 }
+
 .mh-slider-pr-1 .mh-nav button,
 .mh-slider-px-1 .mh-nav button,
 .mh-pr-1,
 .mh-px-1 {
   padding-right: 5px !important;
 }
+
 .mh-slider-pr-2 .mh-nav button,
 .mh-slider-px-2 .mh-nav button,
 .mh-pr-2,
 .mh-px-2 {
   padding-right: 10px !important;
 }
+
 .mh-slider-pr-3 .mh-nav button,
 .mh-slider-px-3 .mh-nav button,
 .mh-pr-3,
 .mh-px-3 {
   padding-right: 15px !important;
 }
+
 .mh-slider-pr-4 .mh-nav button,
 .mh-slider-px-4 .mh-nav button,
 .mh-pr-4,
 .mh-px-4 {
   padding-right: 20px !important;
 }
+
 .mh-slider-pr-5 .mh-nav button,
 .mh-slider-px-5 .mh-nav button,
 .mh-pr-5,
 .mh-px-5 {
   padding-right: 25px !important;
 }
+
 .mh-slider-pr-6 .mh-nav button,
 .mh-slider-px-6 .mh-nav button,
 .mh-pr-6,
@@ -1641,6 +1734,7 @@ body {
 .mh-color-blue {
   color: blue !important;
 }
+
 .mh-slider-color-orange .mh-nav button,
 .mh-slider-color-orange-hover .mh-nav button:hover,
 .mh-table-color-orange-hover tr:hover,
@@ -1856,6 +1950,7 @@ body {
 .mh-color-wheat {
   color: wheat !important;
 }
+
 .mh-slider-color-goldenrod .mh-nav button,
 .mh-slider-color-goldenrod-hover .mh-nav button:hover,
 .mh-table-color-goldenrod-hover tr:hover,
@@ -1867,6 +1962,7 @@ body {
 .mh-color-goldenrod {
   color: goldenrod !important;
 }
+
 .mh-slider-color-salmon .mh-nav button,
 .mh-slider-color-salmon-hover .mh-nav button:hover,
 .mh-table-color-salmon-hover tr:hover,
@@ -1878,6 +1974,7 @@ body {
 .mh-color-salmon {
   color: salmon !important;
 }
+
 .mh-slider-color-chocolate .mh-nav button,
 .mh-slider-color-chocolate-hover .mh-nav button:hover,
 .mh-table-color-chocolate-hover tr:hover,
@@ -1889,6 +1986,7 @@ body {
 .mh-color-chocolate {
   color: chocolate !important;
 }
+
 .mh-slider-color-darkblue .mh-nav button,
 .mh-slider-color-darkblue-hover .mh-nav button:hover,
 .mh-table-color-darkblue-hover tr:hover,
@@ -1900,6 +1998,7 @@ body {
 .mh-color-darkblue {
   color: darkblue !important;
 }
+
 .mh-slider-color-springgreen .mh-nav button,
 .mh-slider-color-springgreen-hover .mh-nav button:hover,
 .mh-table-color-springgreen-hover tr:hover,
@@ -1911,6 +2010,7 @@ body {
 .mh-color-springgreen {
   color: springgreen !important;
 }
+
 .mh-slider-color-turquoise .mh-nav button,
 .mh-slider-color-turquoise-hover .mh-nav button:hover,
 .mh-table-color-turquoise-hover tr:hover,
@@ -1922,6 +2022,7 @@ body {
 .mh-color-turquoise {
   color: turquoise !important;
 }
+
 .mh-slider-color-crimson .mh-nav button,
 .mh-slider-color-crimson-hover .mh-nav button:hover,
 .mh-table-color-crimson-hover tr:hover,
@@ -1933,6 +2034,7 @@ body {
 .mh-color-crimson {
   color: crimson !important;
 }
+
 .mh-slider-color-silver .mh-nav button,
 .mh-slider-color-silver-hover .mh-nav button:hover,
 .mh-table-color-silver-hover tr:hover,
@@ -1944,6 +2046,7 @@ body {
 .mh-color-silver {
   color: silver !important;
 }
+
 .mh-slider-color-darkred .mh-nav button,
 .mh-slider-color-darkred-hover .mh-nav button:hover,
 .mh-table-color-darkred-hover tr:hover,
@@ -1955,6 +2058,7 @@ body {
 .mh-color-darkred {
   color: darkred !important;
 }
+
 .mh-slider-color-navy .mh-nav button,
 .mh-slider-color-navy-hover .mh-nav button:hover,
 .mh-table-color-navy-hover tr:hover,
@@ -1966,6 +2070,7 @@ body {
 .mh-color-navy {
   color: navy !important;
 }
+
 .mh-slider-color-orchid .mh-nav button,
 .mh-slider-color-orchid-hover .mh-nav button:hover,
 .mh-table-color-orchid-hover tr:hover,
@@ -1977,6 +2082,7 @@ body {
 .mh-color-orchid {
   color: orchid !important;
 }
+
 .mh-slider-color-teal .mh-nav button,
 .mh-slider-color-teal-hover .mh-nav button:hover,
 .mh-table-color-teal-hover tr:hover,
@@ -2262,6 +2368,7 @@ body {
 .mh-bg-primary {
   background-color: var(--mh-primary-color) !important;
 }
+
 .mh-slider-bg-maroon-hover .mh-nav button:hover,
 .mh-slider-bg-maroon .mh-nav button,
 .mh-slider-bg-maroon .mh-dots .mh-dot.active span,
@@ -2315,6 +2422,7 @@ body {
 .mh-bg-lightgray {
   background-color: lightgray !important;
 }
+
 .mh-slider-bg-gray-hover .mh-nav button:hover,
 .mh-slider-bg-gray .mh-nav button,
 .mh-slider-bg-gray .mh-dots .mh-dot.active span,
@@ -2440,6 +2548,7 @@ body {
 .mh-bg-azure {
   background-color: azure !important;
 }
+
 .mh-slider-bg-wheat-hover .mh-nav button:hover,
 .mh-slider-bg-wheat .mh-nav button,
 .mh-slider-bg-wheat .mh-dots .mh-dot.active span,
@@ -2511,6 +2620,7 @@ body {
 .mh-bg-chocolate {
   background-color: chocolate !important;
 }
+
 .mh-slider-bg-darkblue-hover .mh-nav button:hover,
 .mh-slider-bg-darkblue .mh-nav button,
 .mh-slider-bg-darkblue .mh-dots .mh-dot.active span,
@@ -4335,7 +4445,8 @@ body {
 
 .mh-card {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
-  background-color: #fafafa;
+  background-color: var(--mh-white-color);
+  font-size: 15px;
 }
 
 .mh-card-img {
@@ -4345,9 +4456,7 @@ body {
 
 .mh-card-body {
   line-height: 1.5;
-  font-size: 0.9em;
   padding: 15px;
-  background-color: #fafafa;
 }
 
 .mh-card-body h2 {
@@ -4362,15 +4471,20 @@ body {
   margin-bottom: 0;
 }
 
+
+.mh-card-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.mh-card-header ,
 .mh-card-footer {
   padding: 15px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #eee;
-  color: #555;
-  font-size: 0.8em;
-  border-bottom: 2px solid #ccc;
+  background-color: rgba(0, 0, 0, .03);
+}
+.mh-card-footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .mh-card-footer i {
@@ -5218,9 +5332,11 @@ color: #ddd;
   border-radius: 5px;
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
+
 .mh-navbar-search-form::placeholder {
   color: var(--mh-gray-color-light) !important;
 }
+
 .mh-navbar-search-form-s1 {
   background: var(--mh-light-color);
   padding: 8px 28px;
@@ -5231,6 +5347,7 @@ color: #ddd;
   gap: 1rem;
   color: var(--mh-gray-color-light);
 }
+
 .mh-navbar-search-form-s1 .mh-navbar-search-form {
   color: var(--mh-dark-color);
   background: transparent;
@@ -5238,10 +5355,12 @@ color: #ddd;
   width: 100%;
   line-height: 0.5;
 }
-.mh-navbar-search-form-s1 .mh-btn{
+
+.mh-navbar-search-form-s1 .mh-btn {
   padding: 0px;
   font-size: 16px;
 }
+
 .mh-navbar-nav .mh-link {
   display: block;
   padding: 5px 10px;
@@ -15352,7 +15471,7 @@ color: #ddd;
   .mh-px-5-xl {
     padding-right: 25px !important;
   }
-  
+
   .mh-pr-6-xl,
   .mh-px-6-xl {
     padding-right: 30px !important;
@@ -15844,6 +15963,7 @@ color: #ddd;
   justify-content: center;
   border-radius: 50%;
 }
+
 .mh-analog-clock.mh-ac-light .mh-hour,
 .mh-analog-clock.mh-ac-light .mh-hourl {
   color: var(--mh-black-color);
@@ -15854,6 +15974,7 @@ color: #ddd;
 .mh-analog-clock.mh-ac-light .sc::before {
   background-color: var(--mh-black-color);
 }
+
 .mh-analog-clock .hr {
   width: 180px;
   height: 180px;
@@ -15937,54 +16058,55 @@ color: #ddd;
 .mh-analog-clock .mh-hour11 {
   top: 15%;
   left: 28%;
-  transform: translate(100%, -50%),rotate(-30deg);
+  transform: translate(100%, -50%), rotate(-30deg);
   font-weight: 900;
 }
 
 .mh-analog-clock .mh-hour10 {
   top: 30%;
   left: 14%;
-  transform: translate(0%, -50%),rotate(-60deg);
+  transform: translate(0%, -50%), rotate(-60deg);
   font-weight: 900;
 }
 
 .mh-analog-clock .mh-hour7 {
   bottom: 15%;
   left: 30%;
-  transform: translate(-30%, 50%),rotate(30deg);
+  transform: translate(-30%, 50%), rotate(30deg);
 }
 
 .mh-analog-clock .mh-hour8 {
   bottom: 25%;
   left: 15%;
-  transform: translate(-50%, -50%),rotate(60deg);
+  transform: translate(-50%, -50%), rotate(60deg);
 }
 
 .mh-analog-clock .mh-hour5 {
   bottom: 15%;
   right: 30%;
-  transform: translate(100%, 60%),rotate(-30deg);
+  transform: translate(100%, 60%), rotate(-30deg);
 }
 
 .mh-analog-clock .mh-hour4 {
   bottom: 25%;
   right: 15%;
-  transform: translate(50%, -50%),rotate(-60deg);
+  transform: translate(50%, -50%), rotate(-60deg);
 }
 
 .mh-analog-clock .mh-hour1 {
   top: 15%;
   right: 28%;
-  transform: translate(0%, -50%),rotate(30deg);
+  transform: translate(0%, -50%), rotate(30deg);
   font-weight: 900;
 }
 
 .mh-analog-clock .mh-hour2 {
   top: 30%;
   right: 14%;
-  transform: translate(50%, -60%),rotate(60deg);
+  transform: translate(50%, -60%), rotate(60deg);
   font-weight: 900;
 }
+
 /*theme btn*/
 .mh-theme-btn {
   display: flex;
@@ -15994,6 +16116,7 @@ color: #ddd;
   border-radius: 6px;
   cursor: pointer;
 }
+
 .mh-theme-btn i {
   width: 50%;
   height: 100%;
@@ -16008,6 +16131,7 @@ color: #ddd;
   border-radius: 6px;
   color: #fff;
 }
+
 /*mini profile*/
 .mh-profile {
   display: flex;
