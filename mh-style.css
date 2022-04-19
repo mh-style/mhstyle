@@ -47,7 +47,6 @@ horizontal-card
   --mh-primary-color-light: rgba(0, 140, 255, 0.2);
   --mh-success-color-light: rgba(34, 202, 75, 0.2);
   --mh-danger-color-light: rgba(255, 67, 54, 0.2);
-  --mh-purple-color-light: rgba(160, 99, 245, 0.2);
   --mh-warning-color-light: rgb(234, 181, 7, 0.2);
 
   --mh-border-color: #dee2e6;
@@ -1807,6 +1806,83 @@ body {
   color: skyblue !important;
 }
 
+.mh-slider-color-success-light .mh-nav button,
+.mh-slider-color-success-light-hover .mh-nav button:hover,
+.mh-table-color-success-light-hover tr:hover,
+.mh-table-color-th-success-light thead tr,
+.mh-table-color-success-light,
+.mh-table-color-success-light-even tbody tr:nth-child(even),
+.mh-table-color-success-light-odd tbody tr:nth-child(odd),
+.mh-color-success-light-hover:hover,
+.mh-color-success-light {
+  color: var(--mh-success-color-light) !important;
+}
+.mh-slider-color-primary-light .mh-nav button,
+.mh-slider-color-primary-light-hover .mh-nav button:hover,
+.mh-table-color-primary-light-hover tr:hover,
+.mh-table-color-th-primary-light thead tr,
+.mh-table-color-primary-light,
+.mh-table-color-primary-light-even tbody tr:nth-child(even),
+.mh-table-color-primary-light-odd tbody tr:nth-child(odd),
+.mh-color-primary-light-hover:hover,
+.mh-color-primary-light {
+  color: var(--mh-primary-color-light) !important;
+}
+.mh-slider-color-warning-light .mh-nav button,
+.mh-slider-color-warning-light-hover .mh-nav button:hover,
+.mh-table-color-warning-light-hover tr:hover,
+.mh-table-color-th-warning-light thead tr,
+.mh-table-color-warning-light,
+.mh-table-color-warning-light-even tbody tr:nth-child(even),
+.mh-table-color-warning-light-odd tbody tr:nth-child(odd),
+.mh-color-warning-light-hover:hover,
+.mh-color-warning-light {
+  color: var(--mh-warning-color-light) !important;
+}
+.mh-slider-color-danger-light .mh-nav button,
+.mh-slider-color-danger-light-hover .mh-nav button:hover,
+.mh-table-color-danger-light-hover tr:hover,
+.mh-table-color-th-danger-light thead tr,
+.mh-table-color-danger-light,
+.mh-table-color-danger-light-even tbody tr:nth-child(even),
+.mh-table-color-danger-light-odd tbody tr:nth-child(odd),
+.mh-color-danger-light-hover:hover,
+.mh-color-danger-light {
+  color: var(--mh-danger-color-light) !important;
+}
+.mh-slider-color-success .mh-nav button,
+.mh-slider-color-success-hover .mh-nav button:hover,
+.mh-table-color-success-hover tr:hover,
+.mh-table-color-th-success thead tr,
+.mh-table-color-success,
+.mh-table-color-success-even tbody tr:nth-child(even),
+.mh-table-color-success-odd tbody tr:nth-child(odd),
+.mh-color-success-hover:hover,
+.mh-color-success {
+  color: var(--mh-success-color) !important;
+}
+.mh-slider-color-warning .mh-nav button,
+.mh-slider-color-warning-hover .mh-nav button:hover,
+.mh-table-color-warning-hover tr:hover,
+.mh-table-color-th-warning thead tr,
+.mh-table-color-warning,
+.mh-table-color-warning-even tbody tr:nth-child(even),
+.mh-table-color-warning-odd tbody tr:nth-child(odd),
+.mh-color-warning-hover:hover,
+.mh-color-warning {
+  color: var(--mh-warning-color) !important;
+}
+.mh-slider-color-danger .mh-nav button,
+.mh-slider-color-danger-hover .mh-nav button:hover,
+.mh-table-color-danger-hover tr:hover,
+.mh-table-color-th-danger thead tr,
+.mh-table-color-danger,
+.mh-table-color-danger-even tbody tr:nth-child(even),
+.mh-table-color-danger-odd tbody tr:nth-child(odd),
+.mh-color-danger-hover:hover,
+.mh-color-danger {
+  color: var(--mh-danger-color) !important;
+}
 .mh-slider-color-primary .mh-nav button,
 .mh-slider-color-primary-hover .mh-nav button:hover,
 .mh-table-color-primary-hover tr:hover,
@@ -2151,6 +2227,125 @@ body {
 
 
 /*===========background-color==============*/
+.mh-slider-bg-warning-light .mh-nav button,
+.mh-slider-bg-warning-light-hover .mh-nav button:hover,
+.mh-slider-bg-warning-light .mh-dots .mh-dot.active span,
+.mh-slider-bg-warning-light .mh-dots .mh-dot:hover span,
+.mh-before-bg-warning-light::before,
+.mh-after-bg-warning-light::after,
+.mh-checked-bg-warning-light:checked,
+.mh-bg-warning-light-hover:hover,
+.mh-table-th-warning-light thead tr,
+.mh-table-warning-light,
+.mh-table-td-warning-light tbody tr,
+.mh-table-warning-light-hover tbody tr:hover,
+.mh-table-warning-light-even tr:nth-child(even),
+.mh-table-warning-light-odd tr:nth-child(odd),
+.mh-bg-warning-light {
+  background-color: var(--mh-warning-color-light) !important;
+}
+.mh-slider-bg-danger-light .mh-nav button,
+.mh-slider-bg-danger-light-hover .mh-nav button:hover,
+.mh-slider-bg-danger-light .mh-dots .mh-dot.active span,
+.mh-slider-bg-danger-light .mh-dots .mh-dot:hover span,
+.mh-before-bg-danger-light::before,
+.mh-after-bg-danger-light::after,
+.mh-checked-bg-danger-light:checked,
+.mh-bg-danger-light-hover:hover,
+.mh-table-th-danger-light thead tr,
+.mh-table-danger-light,
+.mh-table-td-danger-light tbody tr,
+.mh-table-danger-light-hover tbody tr:hover,
+.mh-table-danger-light-even tr:nth-child(even),
+.mh-table-danger-light-odd tr:nth-child(odd),
+.mh-bg-danger-light {
+  background-color: var(--mh-danger-color-light) !important;
+}
+.mh-slider-bg-success-light .mh-nav button,
+.mh-slider-bg-success-light-hover .mh-nav button:hover,
+.mh-slider-bg-success-light .mh-dots .mh-dot.active span,
+.mh-slider-bg-success-light .mh-dots .mh-dot:hover span,
+.mh-before-bg-success-light::before,
+.mh-after-bg-success-light::after,
+.mh-checked-bg-success-light:checked,
+.mh-bg-success-light-hover:hover,
+.mh-table-th-success-light thead tr,
+.mh-table-success-light,
+.mh-table-td-success-light tbody tr,
+.mh-table-success-light-hover tbody tr:hover,
+.mh-table-success-light-even tr:nth-child(even),
+.mh-table-success-light-odd tr:nth-child(odd),
+.mh-bg-success-light {
+  background-color: var(--mh-success-color-light) !important;
+}
+.mh-slider-bg-primary-light .mh-nav button,
+.mh-slider-bg-primary-light-hover .mh-nav button:hover,
+.mh-slider-bg-primary-light .mh-dots .mh-dot.active span,
+.mh-slider-bg-primary-light .mh-dots .mh-dot:hover span,
+.mh-before-bg-primary-light::before,
+.mh-after-bg-primary-light::after,
+.mh-checked-bg-primary-light:checked,
+.mh-bg-primary-light-hover:hover,
+.mh-table-th-primary-light thead tr,
+.mh-table-primary-light,
+.mh-table-td-primary-light tbody tr,
+.mh-table-primary-light-hover tbody tr:hover,
+.mh-table-primary-light-even tr:nth-child(even),
+.mh-table-primary-light-odd tr:nth-child(odd),
+.mh-bg-primary-light {
+  background-color: var(--mh-primary-color-light) !important;
+}
+.mh-slider-bg-warning .mh-nav button,
+.mh-slider-bg-warning-hover .mh-nav button:hover,
+.mh-slider-bg-warning .mh-dots .mh-dot.active span,
+.mh-slider-bg-warning .mh-dots .mh-dot:hover span,
+.mh-before-bg-warning::before,
+.mh-after-bg-warning::after,
+.mh-checked-bg-warning:checked,
+.mh-bg-warning-hover:hover,
+.mh-table-th-warning thead tr,
+.mh-table-warning,
+.mh-table-td-warning tbody tr,
+.mh-table-warning-hover tbody tr:hover,
+.mh-table-warning-even tr:nth-child(even),
+.mh-table-warning-odd tr:nth-child(odd),
+.mh-bg-warning {
+  background-color: var(--mh-warning-color) !important;
+}
+.mh-slider-bg-danger .mh-nav button,
+.mh-slider-bg-danger-hover .mh-nav button:hover,
+.mh-slider-bg-danger .mh-dots .mh-dot.active span,
+.mh-slider-bg-danger .mh-dots .mh-dot:hover span,
+.mh-before-bg-danger::before,
+.mh-after-bg-danger::after,
+.mh-checked-bg-danger:checked,
+.mh-bg-danger-hover:hover,
+.mh-table-th-danger thead tr,
+.mh-table-danger,
+.mh-table-td-danger tbody tr,
+.mh-table-danger-hover tbody tr:hover,
+.mh-table-danger-even tr:nth-child(even),
+.mh-table-danger-odd tr:nth-child(odd),
+.mh-bg-danger {
+  background-color: var(--mh-danger-color) !important;
+}
+.mh-slider-bg-success .mh-nav button,
+.mh-slider-bg-success-hover .mh-nav button:hover,
+.mh-slider-bg-success .mh-dots .mh-dot.active span,
+.mh-slider-bg-success .mh-dots .mh-dot:hover span,
+.mh-before-bg-success::before,
+.mh-after-bg-success::after,
+.mh-checked-bg-success:checked,
+.mh-bg-success-hover:hover,
+.mh-table-th-success thead tr,
+.mh-table-success,
+.mh-table-td-success tbody tr,
+.mh-table-success-hover tbody tr:hover,
+.mh-table-success-even tr:nth-child(even),
+.mh-table-success-odd tr:nth-child(odd),
+.mh-bg-success {
+  background-color: var(--mh-success-color) !important;
+}
 .mh-slider-bg-black .mh-nav button,
 .mh-slider-bg-black-hover .mh-nav button:hover,
 .mh-slider-bg-black .mh-dots .mh-dot.active span,
@@ -2876,9 +3071,25 @@ body {
   border-color: var(--mh-black-color) !important;
 }
 
+.mh-before-border-white::before,
+.mh-border-white {
+  border-color: var(--mh-white-color) !important;
+}
 .mh-before-border-light::before,
 .mh-border-light {
-  border-color: var(--mh-white-color) !important;
+  border-color: var(--mh-light-color) !important;
+}
+.mh-before-border-success::before,
+.mh-border-success {
+  border-color: var(--mh-success-color) !important;
+}
+.mh-before-border-danger::before,
+.mh-border-danger {
+  border-color: var(--mh-danger-color) !important;
+}
+.mh-before-border-warning::before,
+.mh-border-warning {
+  border-color: var(--mh-warning-color) !important;
 }
 
 .mh-before-border-red::before,
