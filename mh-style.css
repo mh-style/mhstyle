@@ -42,12 +42,14 @@ horizontal-card
   --mh-primary-color: #008cff;
   --mh-success-color: #22ca4b;
   --mh-danger-color: rgb(255, 67, 54);
-  --mh-warning-color: rgb(234, 181, 7);
+  --mh-warning-color: rgb(255, 193, 7);
+  --mh-info-color: rgb(13, 202, 240);
 
   --mh-primary-color-light: rgba(0, 140, 255, 0.2);
   --mh-success-color-light: rgba(34, 202, 75, 0.2);
   --mh-danger-color-light: rgba(255, 67, 54, 0.2);
-  --mh-warning-color-light: rgb(234, 181, 7, 0.2);
+  --mh-info-color-light: rgba(13, 202, 240, 0.2);
+  --mh-warning-color-light: rgba(255, 193, 7, 0.2);
 
   --mh-border-color: #dee2e6;
   --mh-border: 1px solid var(--mh-border-color) !important;
@@ -1828,6 +1830,17 @@ body {
 .mh-color-primary-light {
   color: var(--mh-primary-color-light) !important;
 }
+.mh-slider-color-info-light .mh-nav button,
+.mh-slider-color-info-light-hover .mh-nav button:hover,
+.mh-table-color-info-light-hover tr:hover,
+.mh-table-color-th-info-light thead tr,
+.mh-table-color-info-light,
+.mh-table-color-info-light-even tbody tr:nth-child(even),
+.mh-table-color-info-light-odd tbody tr:nth-child(odd),
+.mh-color-info-light-hover:hover,
+.mh-color-info-light {
+  color: var(--mh-info-color-light) !important;
+}
 .mh-slider-color-warning-light .mh-nav button,
 .mh-slider-color-warning-light-hover .mh-nav button:hover,
 .mh-table-color-warning-light-hover tr:hover,
@@ -1860,6 +1873,39 @@ body {
 .mh-color-success-hover:hover,
 .mh-color-success {
   color: var(--mh-success-color) !important;
+}
+.mh-slider-color-info .mh-nav button,
+.mh-slider-color-info-hover .mh-nav button:hover,
+.mh-table-color-info-hover tr:hover,
+.mh-table-color-th-info thead tr,
+.mh-table-color-info,
+.mh-table-color-info-even tbody tr:nth-child(even),
+.mh-table-color-info-odd tbody tr:nth-child(odd),
+.mh-color-info-hover:hover,
+.mh-color-info {
+  color: var(--mh-info-color) !important;
+}
+.mh-slider-color-info .mh-nav button,
+.mh-slider-color-info-hover .mh-nav button:hover,
+.mh-table-color-info-hover tr:hover,
+.mh-table-color-th-info thead tr,
+.mh-table-color-info,
+.mh-table-color-info-even tbody tr:nth-child(even),
+.mh-table-color-info-odd tbody tr:nth-child(odd),
+.mh-color-info-hover:hover,
+.mh-color-info {
+  color: var(--mh-info-color) !important;
+}
+.mh-slider-color-info .mh-nav button,
+.mh-slider-color-info-hover .mh-nav button:hover,
+.mh-table-color-info-hover tr:hover,
+.mh-table-color-th-info thead tr,
+.mh-table-color-info,
+.mh-table-color-info-even tbody tr:nth-child(even),
+.mh-table-color-info-odd tbody tr:nth-child(odd),
+.mh-color-info-hover:hover,
+.mh-color-info {
+  color: var(--mh-info-color) !important;
 }
 .mh-slider-color-warning .mh-nav button,
 .mh-slider-color-warning-hover .mh-nav button:hover,
@@ -2311,6 +2357,23 @@ body {
 .mh-table-warning-odd tr:nth-child(odd),
 .mh-bg-warning {
   background-color: var(--mh-warning-color) !important;
+}
+.mh-slider-bg-info .mh-nav button,
+.mh-slider-bg-info-hover .mh-nav button:hover,
+.mh-slider-bg-info .mh-dots .mh-dot.active span,
+.mh-slider-bg-info .mh-dots .mh-dot:hover span,
+.mh-before-bg-info::before,
+.mh-after-bg-info::after,
+.mh-checked-bg-info:checked,
+.mh-bg-info-hover:hover,
+.mh-table-th-info thead tr,
+.mh-table-info,
+.mh-table-td-info tbody tr,
+.mh-table-info-hover tbody tr:hover,
+.mh-table-info-even tr:nth-child(even),
+.mh-table-info-odd tr:nth-child(odd),
+.mh-bg-info {
+  background-color: var(--mh-info-color) !important;
 }
 .mh-slider-bg-danger .mh-nav button,
 .mh-slider-bg-danger-hover .mh-nav button:hover,
@@ -3090,6 +3153,10 @@ body {
 .mh-before-border-warning::before,
 .mh-border-warning {
   border-color: var(--mh-warning-color) !important;
+}
+.mh-before-border-info::before,
+.mh-border-info {
+  border-color: var(--mh-info-color) !important;
 }
 
 .mh-before-border-red::before,
@@ -4658,6 +4725,7 @@ body {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   background-color: var(--mh-white-color);
   font-size: 15px;
+  color: var(--mh-dark-color);
 }
 
 .mh-card-img {
