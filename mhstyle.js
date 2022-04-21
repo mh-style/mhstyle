@@ -1006,6 +1006,17 @@ try{
 
 	});
 }catch{}
+/** alert */
+try{
+let alertCloseBtn = document.querySelectorAll(".mh-alert-close .mh-close");
+for (let i = 0; i < alertCloseBtn.length; i++) {
+	alertCloseBtn[i].setAttribute('onclick', 'alertClosefunction(this)');
+}
+alertClosefunction = (btn) => {
+	const parent = btn.closest(".mh-alert-close");
+	parent.remove();
+}
+}catch{}
 /*** background image Url */
 try {
 	let bg_img_url = document.querySelectorAll('.mh-bg-img-url');

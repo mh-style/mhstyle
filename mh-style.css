@@ -6883,11 +6883,26 @@ color: #ddd;
 .mh-alert {
   padding: 14px 10px;
   width: 100%;
-  border-radius: 5px;
-  font-size: 18px;
   font-family: system-ui;
+  border-radius: 5px;
   margin: 10px 0px;
   border: 1px solid;
+}
+.mh-alert,.mh-alert-close .mh-close{
+  font-size: 18px;
+}
+.mh-alert a{
+  font-weight: bold;
+  text-decoration: underline;
+  color: var(--mh-dark-color);
+}
+.mh-alert-close .mh-close {
+  display: block;
+  overflow: hidden;
+  float: right;
+  background: none;
+  cursor: pointer;
+  border: none;
 }
 
 .mh-alert-s1 {
@@ -6916,6 +6931,10 @@ color: #ddd;
   border-color: #8db100;
 }
 
+.mh-alert-s6.mh-alert a,
+.mh-alert-s6.mh-alert-close .mh-close{
+  color: var(--mh-white-color);
+}
 .mh-alert-s6 {
   background: #080808bf;
   border-color: #6d6d6d;
