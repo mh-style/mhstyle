@@ -4515,6 +4515,7 @@ body {
   font-size: 17px;
   border: none;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .mh-btn-primary,
@@ -4704,18 +4705,6 @@ body {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-  .mh-card-s1 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media only screen and (max-width: 540px) {
-  .mh-card-s1 {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
 .mh-card-s2 {
   grid-template-columns: repeat(3, 1fr);
 }
@@ -4725,43 +4714,22 @@ body {
   margin-bottom: 10px;
 }
 
-@media only screen and (max-width: 768px) {
-  .mh-card-s2 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media only screen and (max-width: 540px) {
-  .mh-card-s2 {
-    grid-template-columns: repeat(1, 1fr);
-  }
-}
-
 .mh-card-s3 {
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
 @media only screen and (max-width: 768px) {
+  .mh-card-s1 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .mh-card-s2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .mh-card-s3 {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-}
-
-@media only screen and (max-width: 540px) {
-  .mh-card-s3 {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 20px;
-  }
-}
-
-.mh-card-s4 {
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
-}
-
-@media only screen and (max-width: 768px) {
   .mh-card-s4 {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
@@ -4769,12 +4737,27 @@ body {
 }
 
 @media only screen and (max-width: 540px) {
+  .mh-card-s1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .mh-card-s2 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .mh-card-s3 {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
   .mh-card-s4 {
     grid-template-columns: repeat(1, 1fr);
     gap: 20px;
     margin-right: 20px;
     margin-left: 20px;
   }
+}
+
+.mh-card-s4 {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 .mh-card {
@@ -5777,7 +5760,10 @@ color: #ddd;
   width: 100%;
   border-collapse: collapse;
 }
-
+.mh-table-responsive{
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
 .mh-table-bb th,
 .mh-table-bb td {
   border-bottom-width: 1px !important;
@@ -5808,7 +5794,7 @@ color: #ddd;
 .mh-table td,
 .mh-table th {
   padding: 12px 15px;
-  border: 1px solid #ddd;
+  border: var(--mh-border);
   text-align: center;
   font-size: 16px;
   font-family: sans-serif;
