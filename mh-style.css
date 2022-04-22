@@ -2443,7 +2443,7 @@ body {
 .mh-table-white-even tr:nth-child(even),
 .mh-table-white-odd tr:nth-child(odd),
 .mh-bg-white {
-  background-color: white !important;
+  background-color: var(--mh-white-color) !important;
 }
 
 .mh-slider-bg-light-hover .mh-nav button:hover,
@@ -2462,7 +2462,7 @@ body {
 .mh-table-light-even tr:nth-child(even),
 .mh-table-light-odd tr:nth-child(odd),
 .mh-bg-light {
-  background-color: #f8f9fa !important;
+  background-color: var(--mh-light-color) !important;
 }
 
 .mh-slider-bg-blue-hover .mh-nav button:hover,
@@ -2678,7 +2678,7 @@ body {
 .mh-table-lightgray-even tr:nth-child(even),
 .mh-table-lightgray-odd tr:nth-child(odd),
 .mh-bg-lightgray {
-  background-color: lightgray !important;
+  background-color: var(--mh-gray-color-light) !important;
 }
 
 .mh-slider-bg-gray-hover .mh-nav button:hover,
