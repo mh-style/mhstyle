@@ -72,6 +72,7 @@ try {
 		});
 	}(jQuery));
 } catch {}
+
 try {
 	function makesvg(percentage, inner_text = "") {
 
@@ -137,6 +138,25 @@ try {
 		mh_form_btn.style.left = "0";
 	}
 } catch {}
+/**
+ * Contact Form
+ */
+try{
+	const forminput = document.querySelectorAll(".mh-form-s2 .mh-form-field");
+        forminput.forEach((forminput) =>{
+		let thisLabel = forminput.nextElementSibling;
+		forminput.addEventListener("focus", () =>{
+			thisLabel.classList.add("active");
+		});
+		forminput.addEventListener("blur", () =>{
+			if (forminput.value === "") {
+				thisLabel.classList.remove("active");
+			}
+			
+		});
+
+	});
+}catch{}
 /**
  * image gallery
  */
@@ -964,16 +984,12 @@ try {
 
 	for (let navbarMenuToggleButton of navbarMenuToggleButtons) {
 		for (let navbarMenuBodyNav of navbarMenuBodyNavs) {
-				
-			
 			navbarMenuToggleButton.addEventListener("click", (event) => {
 				let navbarMenuToggleButtonAttribute = navbarMenuToggleButton.getAttribute("mh-navtoggle");
 				let navbarMenuBodyNavAttribute = navbarMenuBodyNav.getAttribute("id");
 				if (navbarMenuToggleButtonAttribute == navbarMenuBodyNavAttribute) {
-					
-							navbarMenuBodyNav.classList.toggle("mh-collapse");
-						
-					}
+					navbarMenuBodyNav.classList.toggle("mh-collapse");
+				}
 			});
 		}
 	}
